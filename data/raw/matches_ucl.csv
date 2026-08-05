@@ -1,0 +1,801 @@
+league,season,game_id,date,home_team,away_team,home_score,away_score
+INT-Champions League,2122,9673a872,2021-09-14,Barcelona,Bayern Munich,0,3
+INT-Champions League,2122,97ff5d03,2021-09-14,Chelsea,Zenit,1,0
+INT-Champions League,2122,77875855,2021-09-14,Dynamo Kyiv,Benfica,0,0
+INT-Champions League,2122,e6bd6226,2021-09-14,Lille,Wolfsburg,0,0
+INT-Champions League,2122,eeac9d1a,2021-09-14,Malmö,Juventus,0,3
+INT-Champions League,2122,4053e749,2021-09-14,Sevilla,RB Salzburg,1,1
+INT-Champions League,2122,647a3ef3,2021-09-14,Villarreal,Atalanta,2,2
+INT-Champions League,2122,b3e0c6ca,2021-09-14,Young Boys,Manchester Utd,2,1
+INT-Champions League,2122,f6116bb9,2021-09-15,Atlético Madrid,Porto,0,0
+INT-Champions League,2122,7252c1e3,2021-09-15,Beşiktaş,Dortmund,1,2
+INT-Champions League,2122,d27dff51,2021-09-15,Club Brugge,PSG,1,1
+INT-Champions League,2122,97f6140b,2021-09-15,Inter,Real Madrid,0,1
+INT-Champions League,2122,ff3e4ae2,2021-09-15,Liverpool,Milan,3,2
+INT-Champions League,2122,c188c958,2021-09-15,Manchester City,RB Leipzig,6,3
+INT-Champions League,2122,5867e8d5,2021-09-15,Sheriff Tiraspol,Shakhtar D.,2,0
+INT-Champions League,2122,8319ee0e,2021-09-15,Sporting CP,Ajax,1,5
+INT-Champions League,2122,a20e4f8b,2021-09-28,Ajax,Beşiktaş,2,0
+INT-Champions League,2122,989cec97,2021-09-28,Dortmund,Sporting CP,1,0
+INT-Champions League,2122,e87aa3a4,2021-09-28,Milan,Atlético Madrid,1,2
+INT-Champions League,2122,9aa65428,2021-09-28,PSG,Manchester City,2,0
+INT-Champions League,2122,1c876d93,2021-09-28,Porto,Liverpool,1,5
+INT-Champions League,2122,6602bedc,2021-09-28,RB Leipzig,Club Brugge,1,2
+INT-Champions League,2122,13aec4c5,2021-09-28,Real Madrid,Sheriff Tiraspol,1,2
+INT-Champions League,2122,aff7f6f5,2021-09-28,Shakhtar D.,Inter,0,0
+INT-Champions League,2122,489e107b,2021-09-29,Atalanta,Young Boys,1,0
+INT-Champions League,2122,aba1e94d,2021-09-29,Bayern Munich,Dynamo Kyiv,5,0
+INT-Champions League,2122,f2d3da16,2021-09-29,Benfica,Barcelona,3,0
+INT-Champions League,2122,8d8d9475,2021-09-29,Juventus,Chelsea,1,0
+INT-Champions League,2122,8ad62c4a,2021-09-29,Manchester Utd,Villarreal,2,1
+INT-Champions League,2122,8049dc3f,2021-09-29,RB Salzburg,Lille,2,1
+INT-Champions League,2122,d4ddc4bd,2021-09-29,Wolfsburg,Sevilla,1,1
+INT-Champions League,2122,12b2ef3e,2021-09-29,Zenit,Malmö,4,0
+INT-Champions League,2122,e26bd95d,2021-10-19,Ajax,Dortmund,4,0
+INT-Champions League,2122,0f05c98d,2021-10-19,Atlético Madrid,Liverpool,2,3
+INT-Champions League,2122,72145cb3,2021-10-19,Beşiktaş,Sporting CP,1,4
+INT-Champions League,2122,a39621f2,2021-10-19,Club Brugge,Manchester City,1,5
+INT-Champions League,2122,2265c0cf,2021-10-19,Inter,Sheriff Tiraspol,3,1
+INT-Champions League,2122,44b57816,2021-10-19,PSG,RB Leipzig,3,2
+INT-Champions League,2122,747d7304,2021-10-19,Porto,Milan,1,0
+INT-Champions League,2122,4d6a7bf9,2021-10-19,Shakhtar D.,Real Madrid,0,5
+INT-Champions League,2122,e0563452,2021-10-20,Barcelona,Dynamo Kyiv,1,0
+INT-Champions League,2122,542956e2,2021-10-20,Benfica,Bayern Munich,0,4
+INT-Champions League,2122,615bb75f,2021-10-20,Chelsea,Malmö,4,0
+INT-Champions League,2122,6f680700,2021-10-20,Lille,Sevilla,0,0
+INT-Champions League,2122,35f45718,2021-10-20,Manchester Utd,Atalanta,3,2
+INT-Champions League,2122,c83fd1b6,2021-10-20,RB Salzburg,Wolfsburg,3,1
+INT-Champions League,2122,ac01fac5,2021-10-20,Young Boys,Villarreal,1,4
+INT-Champions League,2122,e7f7549b,2021-10-20,Zenit,Juventus,0,1
+INT-Champions League,2122,16b0abb7,2021-11-02,Atalanta,Manchester Utd,2,2
+INT-Champions League,2122,08db1510,2021-11-02,Bayern Munich,Benfica,5,2
+INT-Champions League,2122,3345b115,2021-11-02,Dynamo Kyiv,Barcelona,0,1
+INT-Champions League,2122,43e95e01,2021-11-02,Juventus,Zenit,4,2
+INT-Champions League,2122,fa70eb4c,2021-11-02,Malmö,Chelsea,0,1
+INT-Champions League,2122,6f2937b8,2021-11-02,Sevilla,Lille,1,2
+INT-Champions League,2122,1c0b1278,2021-11-02,Villarreal,Young Boys,2,0
+INT-Champions League,2122,575f8ead,2021-11-02,Wolfsburg,RB Salzburg,2,1
+INT-Champions League,2122,a4217efc,2021-11-03,Dortmund,Ajax,1,3
+INT-Champions League,2122,d1319048,2021-11-03,Liverpool,Atlético Madrid,2,0
+INT-Champions League,2122,7e276b93,2021-11-03,Manchester City,Club Brugge,4,1
+INT-Champions League,2122,5dfde5e7,2021-11-03,Milan,Porto,1,1
+INT-Champions League,2122,a0f25b92,2021-11-03,RB Leipzig,PSG,2,2
+INT-Champions League,2122,d8d8cd07,2021-11-03,Real Madrid,Shakhtar D.,2,1
+INT-Champions League,2122,899725a9,2021-11-03,Sheriff Tiraspol,Inter,1,3
+INT-Champions League,2122,99437702,2021-11-03,Sporting CP,Beşiktaş,4,0
+INT-Champions League,2122,2d0e42b8,2021-11-23,Barcelona,Benfica,0,0
+INT-Champions League,2122,8b15222a,2021-11-23,Chelsea,Juventus,4,0
+INT-Champions League,2122,2459dc61,2021-11-23,Dynamo Kyiv,Bayern Munich,1,2
+INT-Champions League,2122,aa8e3e6b,2021-11-23,Lille,RB Salzburg,1,0
+INT-Champions League,2122,ea8fad6f,2021-11-23,Malmö,Zenit,1,1
+INT-Champions League,2122,e8f46f62,2021-11-23,Sevilla,Wolfsburg,2,0
+INT-Champions League,2122,fd901849,2021-11-23,Villarreal,Manchester Utd,0,2
+INT-Champions League,2122,ab636221,2021-11-23,Young Boys,Atalanta,3,3
+INT-Champions League,2122,34f0c83f,2021-11-24,Atlético Madrid,Milan,0,1
+INT-Champions League,2122,e05f5bad,2021-11-24,Beşiktaş,Ajax,1,2
+INT-Champions League,2122,e26db5b0,2021-11-24,Club Brugge,RB Leipzig,0,5
+INT-Champions League,2122,4950ab44,2021-11-24,Inter,Shakhtar D.,2,0
+INT-Champions League,2122,a8898813,2021-11-24,Liverpool,Porto,2,0
+INT-Champions League,2122,52e983e7,2021-11-24,Manchester City,PSG,2,1
+INT-Champions League,2122,fee91c56,2021-11-24,Sheriff Tiraspol,Real Madrid,0,3
+INT-Champions League,2122,a0bdb8f5,2021-11-24,Sporting CP,Dortmund,3,1
+INT-Champions League,2122,abd2822f,2021-12-07,Ajax,Sporting CP,4,2
+INT-Champions League,2122,9cf37489,2021-12-07,Dortmund,Beşiktaş,5,0
+INT-Champions League,2122,dd8d2903,2021-12-07,Milan,Liverpool,1,2
+INT-Champions League,2122,0e09d997,2021-12-07,PSG,Club Brugge,4,1
+INT-Champions League,2122,59e9e4f2,2021-12-07,Porto,Atlético Madrid,1,3
+INT-Champions League,2122,cccff79c,2021-12-07,RB Leipzig,Manchester City,2,1
+INT-Champions League,2122,77861aa9,2021-12-07,Real Madrid,Inter,2,0
+INT-Champions League,2122,87580b7e,2021-12-07,Shakhtar D.,Sheriff Tiraspol,1,1
+INT-Champions League,2122,0e70c674,2021-12-08,Bayern Munich,Barcelona,3,0
+INT-Champions League,2122,35cc682d,2021-12-08,Benfica,Dynamo Kyiv,2,0
+INT-Champions League,2122,084531d6,2021-12-08,Juventus,Malmö,1,0
+INT-Champions League,2122,e7f6d2d5,2021-12-08,Manchester Utd,Young Boys,1,1
+INT-Champions League,2122,e32221c9,2021-12-08,RB Salzburg,Sevilla,1,0
+INT-Champions League,2122,a2468149,2021-12-08,Wolfsburg,Lille,1,3
+INT-Champions League,2122,e1d49736,2021-12-08,Zenit,Chelsea,3,3
+INT-Champions League,2122,6616d6ae,2021-12-09,Atalanta,Villarreal,2,3
+INT-Champions League,2122,59e6b28f,2022-02-15,PSG,Real Madrid,1,0
+INT-Champions League,2122,e6066ef0,2022-02-15,Sporting CP,Manchester City,0,5
+INT-Champions League,2122,8b1f6c45,2022-02-16,Inter,Liverpool,0,2
+INT-Champions League,2122,0d1bee90,2022-02-16,RB Salzburg,Bayern Munich,1,1
+INT-Champions League,2122,c69e8579,2022-02-22,Chelsea,Lille,2,0
+INT-Champions League,2122,ae29a4e9,2022-02-22,Villarreal,Juventus,1,1
+INT-Champions League,2122,f898d45f,2022-02-23,Atlético Madrid,Manchester Utd,1,1
+INT-Champions League,2122,dffd2be7,2022-02-23,Benfica,Ajax,2,2
+INT-Champions League,2122,ef9bb8e2,2022-03-08,Bayern Munich,RB Salzburg,7,1
+INT-Champions League,2122,6a45bedf,2022-03-08,Liverpool,Inter,0,1
+INT-Champions League,2122,8fbeb943,2022-03-09,Manchester City,Sporting CP,0,0
+INT-Champions League,2122,9a3684d8,2022-03-09,Real Madrid,PSG,3,1
+INT-Champions League,2122,f5479c8e,2022-03-15,Ajax,Benfica,0,1
+INT-Champions League,2122,bac82b39,2022-03-15,Manchester Utd,Atlético Madrid,0,1
+INT-Champions League,2122,a918bfe1,2022-03-16,Juventus,Villarreal,0,3
+INT-Champions League,2122,92acd78c,2022-03-16,Lille,Chelsea,1,2
+INT-Champions League,2122,85c3c6a1,2022-04-05,Benfica,Liverpool,1,3
+INT-Champions League,2122,93ba498e,2022-04-05,Manchester City,Atlético Madrid,1,0
+INT-Champions League,2122,e78b60c2,2022-04-06,Chelsea,Real Madrid,1,3
+INT-Champions League,2122,a3ffc004,2022-04-06,Villarreal,Bayern Munich,1,0
+INT-Champions League,2122,173ffe68,2022-04-12,Bayern Munich,Villarreal,1,1
+INT-Champions League,2122,9d7bfc65,2022-04-12,Real Madrid,Chelsea,2,3
+INT-Champions League,2122,8ba16612,2022-04-13,Atlético Madrid,Manchester City,0,0
+INT-Champions League,2122,f6dd5d9d,2022-04-13,Liverpool,Benfica,3,3
+INT-Champions League,2122,e0c1ddb1,2022-04-26,Manchester City,Real Madrid,4,3
+INT-Champions League,2122,b2776c0c,2022-04-27,Liverpool,Villarreal,2,0
+INT-Champions League,2122,884c627f,2022-05-03,Villarreal,Liverpool,2,3
+INT-Champions League,2122,f422aeec,2022-05-04,Real Madrid,Manchester City,3,1
+INT-Champions League,2122,e81453d3,2022-05-28,Liverpool,Real Madrid,0,1
+INT-Champions League,2223,efeb4639,2022-09-06,Benfica,Maccabi Haifa,2,0
+INT-Champions League,2223,38f6a4ce,2022-09-06,Celtic,Real Madrid,0,3
+INT-Champions League,2223,07f058d4,2022-09-06,Dinamo Zagreb,Chelsea,1,0
+INT-Champions League,2223,709a2125,2022-09-06,Dortmund,FC Copenhagen,3,0
+INT-Champions League,2223,a1157ba5,2022-09-06,PSG,Juventus,2,1
+INT-Champions League,2223,9ecd1e5f,2022-09-06,RB Leipzig,Shakhtar D.,1,4
+INT-Champions League,2223,0f59e412,2022-09-06,RB Salzburg,Milan,1,1
+INT-Champions League,2223,85506897,2022-09-06,Sevilla,Manchester City,0,4
+INT-Champions League,2223,4f096324,2022-09-07,Ajax,Rangers,4,0
+INT-Champions League,2223,221c1a99,2022-09-07,Atlético Madrid,Porto,2,1
+INT-Champions League,2223,d0611a51,2022-09-07,Barcelona,Viktoria Plzeň,5,1
+INT-Champions League,2223,f36cf403,2022-09-07,Club Brugge,Leverkusen,1,0
+INT-Champions League,2223,c060eacb,2022-09-07,Frankfurt,Sporting CP,0,3
+INT-Champions League,2223,d3038dc6,2022-09-07,Inter,Bayern Munich,0,2
+INT-Champions League,2223,186769e2,2022-09-07,Napoli,Liverpool,4,1
+INT-Champions League,2223,e5abb306,2022-09-07,Tottenham,Marseille,2,0
+INT-Champions League,2223,fa6819d6,2022-09-13,Bayern Munich,Barcelona,2,0
+INT-Champions League,2223,6f5c07b8,2022-09-13,Leverkusen,Atlético Madrid,2,0
+INT-Champions League,2223,03c10fd7,2022-09-13,Liverpool,Ajax,2,1
+INT-Champions League,2223,9e523fd4,2022-09-13,Marseille,Frankfurt,0,1
+INT-Champions League,2223,8ea73759,2022-09-13,Porto,Club Brugge,0,4
+INT-Champions League,2223,14945858,2022-09-13,Sporting CP,Tottenham,2,0
+INT-Champions League,2223,4626a08d,2022-09-13,Viktoria Plzeň,Inter,0,2
+INT-Champions League,2223,c36141e9,2022-09-14,Chelsea,RB Salzburg,1,1
+INT-Champions League,2223,135f4d20,2022-09-14,FC Copenhagen,Sevilla,0,0
+INT-Champions League,2223,ad5c6cfb,2022-09-14,Juventus,Benfica,1,2
+INT-Champions League,2223,a2e3a9c9,2022-09-14,Maccabi Haifa,PSG,1,3
+INT-Champions League,2223,f8469961,2022-09-14,Manchester City,Dortmund,2,1
+INT-Champions League,2223,e7f45cec,2022-09-14,Milan,Dinamo Zagreb,3,1
+INT-Champions League,2223,486aeb15,2022-09-14,Rangers,Napoli,0,3
+INT-Champions League,2223,c035904c,2022-09-14,Real Madrid,RB Leipzig,2,0
+INT-Champions League,2223,e925926a,2022-09-14,Shakhtar D.,Celtic,1,1
+INT-Champions League,2223,74aed880,2022-10-04,Ajax,Napoli,1,6
+INT-Champions League,2223,046415e1,2022-10-04,Bayern Munich,Viktoria Plzeň,5,0
+INT-Champions League,2223,b52ab6c9,2022-10-04,Club Brugge,Atlético Madrid,2,0
+INT-Champions League,2223,2f44d120,2022-10-04,Frankfurt,Tottenham,0,0
+INT-Champions League,2223,3b3866ca,2022-10-04,Inter,Barcelona,1,0
+INT-Champions League,2223,707b3173,2022-10-04,Liverpool,Rangers,2,0
+INT-Champions League,2223,22344ecc,2022-10-04,Marseille,Sporting CP,4,1
+INT-Champions League,2223,8e933a97,2022-10-04,Porto,Leverkusen,2,0
+INT-Champions League,2223,0b8c5372,2022-10-05,Benfica,PSG,1,1
+INT-Champions League,2223,012a9877,2022-10-05,Chelsea,Milan,3,0
+INT-Champions League,2223,c8e326ed,2022-10-05,Juventus,Maccabi Haifa,3,1
+INT-Champions League,2223,609cee82,2022-10-05,Manchester City,FC Copenhagen,5,0
+INT-Champions League,2223,2c462cee,2022-10-05,RB Leipzig,Celtic,3,1
+INT-Champions League,2223,5172a9ff,2022-10-05,RB Salzburg,Dinamo Zagreb,1,0
+INT-Champions League,2223,0ff6ebda,2022-10-05,Real Madrid,Shakhtar D.,2,1
+INT-Champions League,2223,2491909c,2022-10-05,Sevilla,Dortmund,1,4
+INT-Champions League,2223,a06ccad8,2022-10-11,Celtic,RB Leipzig,0,2
+INT-Champions League,2223,ea999a07,2022-10-11,Dinamo Zagreb,RB Salzburg,1,1
+INT-Champions League,2223,2e579b17,2022-10-11,Dortmund,Sevilla,1,1
+INT-Champions League,2223,9fcbdbb0,2022-10-11,FC Copenhagen,Manchester City,0,0
+INT-Champions League,2223,ce38fc56,2022-10-11,Maccabi Haifa,Juventus,2,0
+INT-Champions League,2223,c4c72cb6,2022-10-11,Milan,Chelsea,0,2
+INT-Champions League,2223,a964aba8,2022-10-11,PSG,Benfica,1,1
+INT-Champions League,2223,c0689504,2022-10-11,Shakhtar D.,Real Madrid,1,1
+INT-Champions League,2223,d6a4108e,2022-10-12,Atlético Madrid,Club Brugge,0,0
+INT-Champions League,2223,fac347dd,2022-10-12,Barcelona,Inter,3,3
+INT-Champions League,2223,85a0ac20,2022-10-12,Leverkusen,Porto,0,3
+INT-Champions League,2223,c5d06e6b,2022-10-12,Napoli,Ajax,4,2
+INT-Champions League,2223,b79490f8,2022-10-12,Rangers,Liverpool,1,7
+INT-Champions League,2223,67512e2a,2022-10-12,Sporting CP,Marseille,0,2
+INT-Champions League,2223,bd7b7e39,2022-10-12,Tottenham,Frankfurt,3,2
+INT-Champions League,2223,23b381a6,2022-10-12,Viktoria Plzeň,Bayern Munich,2,4
+INT-Champions League,2223,13a5d7c1,2022-10-25,Benfica,Juventus,4,3
+INT-Champions League,2223,f9fa410f,2022-10-25,Celtic,Shakhtar D.,1,1
+INT-Champions League,2223,ce9c9e69,2022-10-25,Dinamo Zagreb,Milan,0,4
+INT-Champions League,2223,606d549f,2022-10-25,Dortmund,Manchester City,0,0
+INT-Champions League,2223,58b1d0c1,2022-10-25,PSG,Maccabi Haifa,7,2
+INT-Champions League,2223,bb96bfe0,2022-10-25,RB Leipzig,Real Madrid,3,2
+INT-Champions League,2223,e8dbb123,2022-10-25,RB Salzburg,Chelsea,1,2
+INT-Champions League,2223,d471b635,2022-10-25,Sevilla,FC Copenhagen,3,0
+INT-Champions League,2223,d88e832b,2022-10-26,Ajax,Liverpool,0,3
+INT-Champions League,2223,b9b38e7f,2022-10-26,Atlético Madrid,Leverkusen,2,2
+INT-Champions League,2223,ced16d03,2022-10-26,Barcelona,Bayern Munich,0,3
+INT-Champions League,2223,5375dfbc,2022-10-26,Club Brugge,Porto,0,4
+INT-Champions League,2223,39438edf,2022-10-26,Frankfurt,Marseille,2,1
+INT-Champions League,2223,c7ab1ac7,2022-10-26,Inter,Viktoria Plzeň,4,0
+INT-Champions League,2223,f238934f,2022-10-26,Napoli,Rangers,3,0
+INT-Champions League,2223,d72e39b0,2022-10-26,Tottenham,Sporting CP,1,1
+INT-Champions League,2223,6af79648,2022-11-01,Bayern Munich,Inter,2,0
+INT-Champions League,2223,454eef7d,2022-11-01,Leverkusen,Club Brugge,0,0
+INT-Champions League,2223,91efb39a,2022-11-01,Liverpool,Napoli,2,0
+INT-Champions League,2223,02a888e6,2022-11-01,Marseille,Tottenham,1,2
+INT-Champions League,2223,cddf7419,2022-11-01,Porto,Atlético Madrid,2,1
+INT-Champions League,2223,9a8c46ee,2022-11-01,Rangers,Ajax,1,3
+INT-Champions League,2223,a6022c5e,2022-11-01,Sporting CP,Frankfurt,1,2
+INT-Champions League,2223,7011379b,2022-11-01,Viktoria Plzeň,Barcelona,2,4
+INT-Champions League,2223,eb2990f8,2022-11-02,Chelsea,Dinamo Zagreb,2,1
+INT-Champions League,2223,0ad599c2,2022-11-02,FC Copenhagen,Dortmund,1,1
+INT-Champions League,2223,f227c18b,2022-11-02,Juventus,PSG,1,2
+INT-Champions League,2223,55937822,2022-11-02,Maccabi Haifa,Benfica,1,6
+INT-Champions League,2223,9fa4922b,2022-11-02,Manchester City,Sevilla,3,1
+INT-Champions League,2223,f74adaef,2022-11-02,Milan,RB Salzburg,4,0
+INT-Champions League,2223,30fc6439,2022-11-02,Real Madrid,Celtic,5,1
+INT-Champions League,2223,86a37c45,2022-11-02,Shakhtar D.,RB Leipzig,0,4
+INT-Champions League,2223,85836007,2023-02-14,Milan,Tottenham,1,0
+INT-Champions League,2223,7e86d4cc,2023-02-14,PSG,Bayern Munich,0,1
+INT-Champions League,2223,e9a8a801,2023-02-15,Club Brugge,Benfica,0,2
+INT-Champions League,2223,c9372f54,2023-02-15,Dortmund,Chelsea,1,0
+INT-Champions League,2223,76341b09,2023-02-21,Frankfurt,Napoli,0,2
+INT-Champions League,2223,f01e8736,2023-02-21,Liverpool,Real Madrid,2,5
+INT-Champions League,2223,e34365de,2023-02-22,Inter,Porto,1,0
+INT-Champions League,2223,afe4ecd7,2023-02-22,RB Leipzig,Manchester City,1,1
+INT-Champions League,2223,e09ec959,2023-03-07,Benfica,Club Brugge,5,1
+INT-Champions League,2223,5f7f5b34,2023-03-07,Chelsea,Dortmund,2,0
+INT-Champions League,2223,14b573e0,2023-03-08,Bayern Munich,PSG,2,0
+INT-Champions League,2223,ee8accc3,2023-03-08,Tottenham,Milan,0,0
+INT-Champions League,2223,808a6511,2023-03-14,Manchester City,RB Leipzig,7,0
+INT-Champions League,2223,7bd6535d,2023-03-14,Porto,Inter,0,0
+INT-Champions League,2223,4c1e52e5,2023-03-15,Napoli,Frankfurt,3,0
+INT-Champions League,2223,a03780a0,2023-03-15,Real Madrid,Liverpool,1,0
+INT-Champions League,2223,7d3073ce,2023-04-11,Benfica,Inter,0,2
+INT-Champions League,2223,9b5a5b22,2023-04-11,Manchester City,Bayern Munich,3,0
+INT-Champions League,2223,f17a0183,2023-04-12,Milan,Napoli,1,0
+INT-Champions League,2223,0e7d4ede,2023-04-12,Real Madrid,Chelsea,2,0
+INT-Champions League,2223,aac9025a,2023-04-18,Chelsea,Real Madrid,0,2
+INT-Champions League,2223,b3370170,2023-04-18,Napoli,Milan,1,1
+INT-Champions League,2223,3b8c18de,2023-04-19,Bayern Munich,Manchester City,1,1
+INT-Champions League,2223,cc8e0837,2023-04-19,Inter,Benfica,3,3
+INT-Champions League,2223,40a448b8,2023-05-09,Real Madrid,Manchester City,1,1
+INT-Champions League,2223,475dcc06,2023-05-10,Milan,Inter,0,2
+INT-Champions League,2223,b73c99ae,2023-05-16,Inter,Milan,1,0
+INT-Champions League,2223,8358b4a1,2023-05-17,Manchester City,Real Madrid,4,0
+INT-Champions League,2223,32081d2b,2023-06-10,Manchester City,Inter,1,0
+INT-Champions League,2324,c9d2ec0f,2023-09-19,Barcelona,Antwerp,5,0
+INT-Champions League,2324,92fc6a26,2023-09-19,Feyenoord,Celtic,2,0
+INT-Champions League,2324,3488c6c3,2023-09-19,Lazio,Atlético Madrid,1,1
+INT-Champions League,2324,3d87750d,2023-09-19,Manchester City,Red Star,3,1
+INT-Champions League,2324,19789895,2023-09-19,Milan,Newcastle,0,0
+INT-Champions League,2324,0c9b1473,2023-09-19,PSG,Dortmund,2,0
+INT-Champions League,2324,13992d54,2023-09-19,Shakhtar D.,Porto,1,3
+INT-Champions League,2324,d916f357,2023-09-19,Young Boys,RB Leipzig,1,3
+INT-Champions League,2324,9928de4e,2023-09-20,Arsenal,PSV,4,0
+INT-Champions League,2324,8c29e4f7,2023-09-20,Bayern Munich,Manchester Utd,4,3
+INT-Champions League,2324,e2058a42,2023-09-20,Benfica,RB Salzburg,0,2
+INT-Champions League,2324,8d09f839,2023-09-20,Braga,Napoli,1,2
+INT-Champions League,2324,986eb717,2023-09-20,Galatasaray,FC Copenhagen,2,2
+INT-Champions League,2324,17349d13,2023-09-20,Real Madrid,Union Berlin,1,0
+INT-Champions League,2324,fe7df7b9,2023-09-20,Real Sociedad,Inter,1,1
+INT-Champions League,2324,1f8a2096,2023-09-20,Sevilla,Lens,1,1
+INT-Champions League,2324,63e312b5,2023-10-03,FC Copenhagen,Bayern Munich,1,2
+INT-Champions League,2324,55ea129d,2023-10-03,Inter,Benfica,1,0
+INT-Champions League,2324,dba6efee,2023-10-03,Lens,Arsenal,2,1
+INT-Champions League,2324,1ad7d8f7,2023-10-03,Manchester Utd,Galatasaray,2,3
+INT-Champions League,2324,a679c3f7,2023-10-03,Napoli,Real Madrid,2,3
+INT-Champions League,2324,29206b1b,2023-10-03,PSV,Sevilla,2,2
+INT-Champions League,2324,38ed7a9b,2023-10-03,RB Salzburg,Real Sociedad,0,2
+INT-Champions League,2324,b30ab716,2023-10-03,Union Berlin,Braga,2,3
+INT-Champions League,2324,89850a68,2023-10-04,Antwerp,Shakhtar D.,2,3
+INT-Champions League,2324,6cd2f188,2023-10-04,Atlético Madrid,Feyenoord,3,2
+INT-Champions League,2324,cd495141,2023-10-04,Celtic,Lazio,1,2
+INT-Champions League,2324,7199206d,2023-10-04,Dortmund,Milan,0,0
+INT-Champions League,2324,4d5a6bf1,2023-10-04,Newcastle,PSG,4,1
+INT-Champions League,2324,7d91e229,2023-10-04,Porto,Barcelona,0,1
+INT-Champions League,2324,2dd697fb,2023-10-04,RB Leipzig,Manchester City,1,3
+INT-Champions League,2324,7c1dbba5,2023-10-04,Red Star,Young Boys,2,2
+INT-Champions League,2324,2d34d54a,2023-10-24,Benfica,Real Sociedad,0,1
+INT-Champions League,2324,ba0599dd,2023-10-24,Braga,Real Madrid,1,2
+INT-Champions League,2324,e5344209,2023-10-24,Galatasaray,Bayern Munich,1,3
+INT-Champions League,2324,118ee102,2023-10-24,Inter,RB Salzburg,2,1
+INT-Champions League,2324,53a663a7,2023-10-24,Lens,PSV,1,1
+INT-Champions League,2324,23151aa4,2023-10-24,Manchester Utd,FC Copenhagen,1,0
+INT-Champions League,2324,0c4b8772,2023-10-24,Sevilla,Arsenal,1,2
+INT-Champions League,2324,61236021,2023-10-24,Union Berlin,Napoli,0,1
+INT-Champions League,2324,09a13276,2023-10-25,Antwerp,Porto,1,4
+INT-Champions League,2324,0eff6ab7,2023-10-25,Barcelona,Shakhtar D.,2,1
+INT-Champions League,2324,97c9cbb1,2023-10-25,Celtic,Atlético Madrid,2,2
+INT-Champions League,2324,b9939d92,2023-10-25,Feyenoord,Lazio,3,1
+INT-Champions League,2324,ab67c6cc,2023-10-25,Newcastle,Dortmund,0,1
+INT-Champions League,2324,f1ef22b8,2023-10-25,PSG,Milan,3,0
+INT-Champions League,2324,f9b9a5fe,2023-10-25,RB Leipzig,Red Star,3,1
+INT-Champions League,2324,d66f6ad1,2023-10-25,Young Boys,Manchester City,1,3
+INT-Champions League,2324,9cde0a29,2023-11-07,Atlético Madrid,Celtic,6,0
+INT-Champions League,2324,12af2c2a,2023-11-07,Dortmund,Newcastle,2,0
+INT-Champions League,2324,c8120a02,2023-11-07,Lazio,Feyenoord,1,0
+INT-Champions League,2324,620ab893,2023-11-07,Manchester City,Young Boys,3,0
+INT-Champions League,2324,9544bc7f,2023-11-07,Milan,PSG,2,1
+INT-Champions League,2324,709875dc,2023-11-07,Porto,Antwerp,2,0
+INT-Champions League,2324,4576b587,2023-11-07,Red Star,RB Leipzig,1,2
+INT-Champions League,2324,66e789bc,2023-11-07,Shakhtar D.,Barcelona,1,0
+INT-Champions League,2324,2e9fad19,2023-11-08,Arsenal,Sevilla,2,0
+INT-Champions League,2324,58134744,2023-11-08,Bayern Munich,Galatasaray,2,1
+INT-Champions League,2324,4a4b95b7,2023-11-08,FC Copenhagen,Manchester Utd,4,3
+INT-Champions League,2324,a3365e90,2023-11-08,Napoli,Union Berlin,1,1
+INT-Champions League,2324,17d16c49,2023-11-08,PSV,Lens,1,0
+INT-Champions League,2324,194d4bb5,2023-11-08,RB Salzburg,Inter,0,1
+INT-Champions League,2324,e3d54c66,2023-11-08,Real Madrid,Braga,3,0
+INT-Champions League,2324,667f4060,2023-11-08,Real Sociedad,Benfica,3,1
+INT-Champions League,2324,ed34277e,2023-11-28,Barcelona,Porto,2,1
+INT-Champions League,2324,c05cacde,2023-11-28,Feyenoord,Atlético Madrid,1,3
+INT-Champions League,2324,433b7484,2023-11-28,Lazio,Celtic,2,0
+INT-Champions League,2324,96f5597e,2023-11-28,Manchester City,RB Leipzig,3,2
+INT-Champions League,2324,32a204fd,2023-11-28,Milan,Dortmund,1,3
+INT-Champions League,2324,9ee809ff,2023-11-28,PSG,Newcastle,1,1
+INT-Champions League,2324,7aaaa33a,2023-11-28,Shakhtar D.,Antwerp,1,0
+INT-Champions League,2324,d2093046,2023-11-28,Young Boys,Red Star,2,0
+INT-Champions League,2324,e7033b85,2023-11-29,Arsenal,Lens,6,0
+INT-Champions League,2324,519645fd,2023-11-29,Bayern Munich,FC Copenhagen,0,0
+INT-Champions League,2324,0bb75d8f,2023-11-29,Benfica,Inter,3,3
+INT-Champions League,2324,93bb73ae,2023-11-29,Braga,Union Berlin,1,1
+INT-Champions League,2324,fd04df87,2023-11-29,Galatasaray,Manchester Utd,3,3
+INT-Champions League,2324,94809dc5,2023-11-29,Real Madrid,Napoli,4,2
+INT-Champions League,2324,ef483d4d,2023-11-29,Real Sociedad,RB Salzburg,0,0
+INT-Champions League,2324,ec88f263,2023-11-29,Sevilla,PSV,2,3
+INT-Champions League,2324,4022021d,2023-12-12,FC Copenhagen,Galatasaray,1,0
+INT-Champions League,2324,4a5df93c,2023-12-12,Inter,Real Sociedad,0,0
+INT-Champions League,2324,1347b590,2023-12-12,Lens,Sevilla,2,1
+INT-Champions League,2324,86343bd4,2023-12-12,Manchester Utd,Bayern Munich,0,1
+INT-Champions League,2324,fc975672,2023-12-12,Napoli,Braga,2,0
+INT-Champions League,2324,a44f0e00,2023-12-12,PSV,Arsenal,1,1
+INT-Champions League,2324,b46994f8,2023-12-12,RB Salzburg,Benfica,1,3
+INT-Champions League,2324,db188587,2023-12-12,Union Berlin,Real Madrid,2,3
+INT-Champions League,2324,511c707c,2023-12-13,Antwerp,Barcelona,3,2
+INT-Champions League,2324,aa674584,2023-12-13,Atlético Madrid,Lazio,2,0
+INT-Champions League,2324,89e6068d,2023-12-13,Celtic,Feyenoord,2,1
+INT-Champions League,2324,73a73afc,2023-12-13,Dortmund,PSG,1,1
+INT-Champions League,2324,49e9dcae,2023-12-13,Newcastle,Milan,1,2
+INT-Champions League,2324,55099f47,2023-12-13,Porto,Shakhtar D.,5,3
+INT-Champions League,2324,2bc39463,2023-12-13,RB Leipzig,Young Boys,2,1
+INT-Champions League,2324,c9438541,2023-12-13,Red Star,Manchester City,2,3
+INT-Champions League,2324,7c72e97e,2024-02-13,FC Copenhagen,Manchester City,1,3
+INT-Champions League,2324,6873100e,2024-02-13,RB Leipzig,Real Madrid,0,1
+INT-Champions League,2324,ae96ef57,2024-02-14,Lazio,Bayern Munich,1,0
+INT-Champions League,2324,bb212371,2024-02-14,PSG,Real Sociedad,2,0
+INT-Champions League,2324,694d6459,2024-02-20,Inter,Atlético Madrid,1,0
+INT-Champions League,2324,280841d0,2024-02-20,PSV,Dortmund,1,1
+INT-Champions League,2324,f0d1a7a8,2024-02-21,Napoli,Barcelona,1,1
+INT-Champions League,2324,2ad57214,2024-02-21,Porto,Arsenal,1,0
+INT-Champions League,2324,86a95c44,2024-03-05,Bayern Munich,Lazio,3,0
+INT-Champions League,2324,a90fb86f,2024-03-05,Real Sociedad,PSG,1,2
+INT-Champions League,2324,b4237bbe,2024-03-06,Manchester City,FC Copenhagen,3,1
+INT-Champions League,2324,c82e57be,2024-03-06,Real Madrid,RB Leipzig,1,1
+INT-Champions League,2324,c72308dd,2024-03-12,Barcelona,Napoli,3,1
+INT-Champions League,2324,191d3ab1,2024-03-13,Dortmund,PSV,2,0
+INT-Champions League,2324,77298172,2024-04-09,Arsenal,Bayern Munich,2,2
+INT-Champions League,2324,5ee67d04,2024-04-09,Real Madrid,Manchester City,3,3
+INT-Champions League,2324,6223cb55,2024-04-10,Atlético Madrid,Dortmund,2,1
+INT-Champions League,2324,d61ddb04,2024-04-10,PSG,Barcelona,2,3
+INT-Champions League,2324,3cbf37f8,2024-04-16,Barcelona,PSG,1,4
+INT-Champions League,2324,80ba9ddf,2024-04-16,Dortmund,Atlético Madrid,4,2
+INT-Champions League,2324,aa8f30b2,2024-04-17,Bayern Munich,Arsenal,1,0
+INT-Champions League,2324,91220b87,2024-04-30,Bayern Munich,Real Madrid,2,2
+INT-Champions League,2324,66fa29a9,2024-05-01,Dortmund,PSG,1,0
+INT-Champions League,2324,79d4acbd,2024-05-07,PSG,Dortmund,0,1
+INT-Champions League,2324,eea5e8be,2024-05-08,Real Madrid,Bayern Munich,2,1
+INT-Champions League,2324,92843563,2024-06-01,Dortmund,Real Madrid,0,2
+INT-Champions League,2425,7c5c2955,2024-09-17,Bayern Munich,Dinamo Zagreb,9,2
+INT-Champions League,2425,931cd5fb,2024-09-17,Juventus,PSV,3,1
+INT-Champions League,2425,54ed5557,2024-09-17,Milan,Liverpool,1,3
+INT-Champions League,2425,4fb5fcbd,2024-09-17,Real Madrid,Stuttgart,3,1
+INT-Champions League,2425,aaca158d,2024-09-17,Sporting CP,Lille,2,0
+INT-Champions League,2425,568274fc,2024-09-17,Young Boys,Aston Villa,0,3
+INT-Champions League,2425,85075de5,2024-09-18,Bologna,Shakhtar D.,0,0
+INT-Champions League,2425,16af036c,2024-09-18,Celtic,Slovan Bratislava,5,1
+INT-Champions League,2425,722df76c,2024-09-18,Club Brugge,Dortmund,0,3
+INT-Champions League,2425,db400f4b,2024-09-18,Manchester City,Inter,0,0
+INT-Champions League,2425,53cfba8e,2024-09-18,PSG,Girona,1,0
+INT-Champions League,2425,936f3ee0,2024-09-18,Sparta Prague,RB Salzburg,3,0
+INT-Champions League,2425,108b9e41,2024-09-19,Atalanta,Arsenal,0,0
+INT-Champions League,2425,a112dcca,2024-09-19,Atlético Madrid,RB Leipzig,2,1
+INT-Champions League,2425,162f5233,2024-09-19,Brest,Sturm Graz,2,1
+INT-Champions League,2425,24c1d39c,2024-09-19,Feyenoord,Leverkusen,0,4
+INT-Champions League,2425,745d19c2,2024-09-19,Monaco,Barcelona,2,1
+INT-Champions League,2425,2d931c93,2024-09-19,Red Star,Benfica,1,2
+INT-Champions League,2425,190f7f3f,2024-10-01,Arsenal,PSG,2,0
+INT-Champions League,2425,9efdd96e,2024-10-01,Barcelona,Young Boys,5,0
+INT-Champions League,2425,925ea41c,2024-10-01,Dortmund,Celtic,7,1
+INT-Champions League,2425,19b3b47e,2024-10-01,Inter,Red Star,4,0
+INT-Champions League,2425,91294a8b,2024-10-01,Leverkusen,Milan,1,0
+INT-Champions League,2425,bd985714,2024-10-01,PSV,Sporting CP,1,1
+INT-Champions League,2425,aa293551,2024-10-01,RB Salzburg,Brest,0,4
+INT-Champions League,2425,c46d8356,2024-10-01,Slovan Bratislava,Manchester City,0,4
+INT-Champions League,2425,80c7f5c5,2024-10-01,Stuttgart,Sparta Prague,1,1
+INT-Champions League,2425,a516238d,2024-10-02,Aston Villa,Bayern Munich,1,0
+INT-Champions League,2425,e5e2d3a2,2024-10-02,Benfica,Atlético Madrid,4,0
+INT-Champions League,2425,facef700,2024-10-02,Dinamo Zagreb,Monaco,2,2
+INT-Champions League,2425,67eb4cdc,2024-10-02,Girona,Feyenoord,2,3
+INT-Champions League,2425,70cd3947,2024-10-02,Lille,Real Madrid,1,0
+INT-Champions League,2425,a749c1fe,2024-10-02,Liverpool,Bologna,2,0
+INT-Champions League,2425,2e8465b9,2024-10-02,RB Leipzig,Juventus,2,3
+INT-Champions League,2425,c5e0de02,2024-10-02,Shakhtar D.,Atalanta,0,3
+INT-Champions League,2425,f871e405,2024-10-02,Sturm Graz,Club Brugge,0,1
+INT-Champions League,2425,32f2220e,2024-10-22,Arsenal,Shakhtar D.,1,0
+INT-Champions League,2425,e546b256,2024-10-22,Aston Villa,Bologna,2,0
+INT-Champions League,2425,bde57607,2024-10-22,Girona,Slovan Bratislava,2,0
+INT-Champions League,2425,3f121c09,2024-10-22,Juventus,Stuttgart,0,1
+INT-Champions League,2425,e11229bf,2024-10-22,Milan,Club Brugge,3,1
+INT-Champions League,2425,8450b165,2024-10-22,Monaco,Red Star,5,1
+INT-Champions League,2425,59f18bd3,2024-10-22,PSG,PSV,1,1
+INT-Champions League,2425,b77278d7,2024-10-22,Real Madrid,Dortmund,5,2
+INT-Champions League,2425,48444796,2024-10-22,Sturm Graz,Sporting CP,0,2
+INT-Champions League,2425,ef40e844,2024-10-23,Atalanta,Celtic,0,0
+INT-Champions League,2425,c956d6a4,2024-10-23,Atlético Madrid,Lille,1,3
+INT-Champions League,2425,710ee5bb,2024-10-23,Barcelona,Bayern Munich,4,1
+INT-Champions League,2425,75a4583e,2024-10-23,Benfica,Feyenoord,1,3
+INT-Champions League,2425,7afed8dc,2024-10-23,Brest,Leverkusen,1,1
+INT-Champions League,2425,b192c7c9,2024-10-23,Manchester City,Sparta Prague,5,0
+INT-Champions League,2425,7acc13f8,2024-10-23,RB Leipzig,Liverpool,0,1
+INT-Champions League,2425,007fa209,2024-10-23,RB Salzburg,Dinamo Zagreb,0,2
+INT-Champions League,2425,f9298241,2024-10-23,Young Boys,Inter,0,1
+INT-Champions League,2425,2a80a9cc,2024-11-05,Bologna,Monaco,0,1
+INT-Champions League,2425,c3867638,2024-11-05,Celtic,RB Leipzig,3,1
+INT-Champions League,2425,fcac354a,2024-11-05,Dortmund,Sturm Graz,1,0
+INT-Champions League,2425,f222cf32,2024-11-05,Lille,Juventus,1,1
+INT-Champions League,2425,8fca6c33,2024-11-05,Liverpool,Leverkusen,4,0
+INT-Champions League,2425,e12ec3c6,2024-11-05,PSV,Girona,4,0
+INT-Champions League,2425,3e59f3e0,2024-11-05,Real Madrid,Milan,1,3
+INT-Champions League,2425,b17b4e64,2024-11-05,Slovan Bratislava,Dinamo Zagreb,1,4
+INT-Champions League,2425,342c86f6,2024-11-05,Sporting CP,Manchester City,4,1
+INT-Champions League,2425,07796431,2024-11-06,Bayern Munich,Benfica,1,0
+INT-Champions League,2425,b11407d0,2024-11-06,Club Brugge,Aston Villa,1,0
+INT-Champions League,2425,164e2c72,2024-11-06,Feyenoord,RB Salzburg,1,3
+INT-Champions League,2425,16d01a57,2024-11-06,Inter,Arsenal,1,0
+INT-Champions League,2425,c32806c8,2024-11-06,PSG,Atlético Madrid,1,2
+INT-Champions League,2425,9a70feac,2024-11-06,Red Star,Barcelona,2,5
+INT-Champions League,2425,a4b98ad4,2024-11-06,Shakhtar D.,Young Boys,2,1
+INT-Champions League,2425,9cef455e,2024-11-06,Sparta Prague,Brest,1,2
+INT-Champions League,2425,506c92bc,2024-11-06,Stuttgart,Atalanta,0,2
+INT-Champions League,2425,d22fed87,2024-11-26,Barcelona,Brest,3,0
+INT-Champions League,2425,93b1eab0,2024-11-26,Bayern Munich,PSG,1,0
+INT-Champions League,2425,36f27dd4,2024-11-26,Inter,RB Leipzig,1,0
+INT-Champions League,2425,3a843132,2024-11-26,Leverkusen,RB Salzburg,5,0
+INT-Champions League,2425,552c5c03,2024-11-26,Manchester City,Feyenoord,3,3
+INT-Champions League,2425,28984772,2024-11-26,Slovan Bratislava,Milan,2,3
+INT-Champions League,2425,7832fcc1,2024-11-26,Sparta Prague,Atlético Madrid,0,6
+INT-Champions League,2425,160ca071,2024-11-26,Sporting CP,Arsenal,1,5
+INT-Champions League,2425,cd869829,2024-11-26,Young Boys,Atalanta,1,6
+INT-Champions League,2425,c862f866,2024-11-27,Aston Villa,Juventus,0,0
+INT-Champions League,2425,defdad60,2024-11-27,Bologna,Lille,1,2
+INT-Champions League,2425,c9fbb00d,2024-11-27,Celtic,Club Brugge,1,1
+INT-Champions League,2425,813836d2,2024-11-27,Dinamo Zagreb,Dortmund,0,3
+INT-Champions League,2425,fe779356,2024-11-27,Liverpool,Real Madrid,2,0
+INT-Champions League,2425,877f4c95,2024-11-27,Monaco,Benfica,2,3
+INT-Champions League,2425,d6fcf0d3,2024-11-27,PSV,Shakhtar D.,3,2
+INT-Champions League,2425,8bd536f4,2024-11-27,Red Star,Stuttgart,5,1
+INT-Champions League,2425,dcfcf574,2024-11-27,Sturm Graz,Girona,1,0
+INT-Champions League,2425,f8e116ea,2024-12-10,Atalanta,Real Madrid,2,3
+INT-Champions League,2425,bcee1130,2024-12-10,Brest,PSV,1,0
+INT-Champions League,2425,2e40ef5f,2024-12-10,Club Brugge,Sporting CP,2,1
+INT-Champions League,2425,bf1ff0cd,2024-12-10,Dinamo Zagreb,Celtic,0,0
+INT-Champions League,2425,ac8de702,2024-12-10,Girona,Liverpool,0,1
+INT-Champions League,2425,f53ce891,2024-12-10,Leverkusen,Inter,1,0
+INT-Champions League,2425,64174109,2024-12-10,RB Leipzig,Aston Villa,2,3
+INT-Champions League,2425,4ae86197,2024-12-10,RB Salzburg,PSG,0,3
+INT-Champions League,2425,d54ab572,2024-12-10,Shakhtar D.,Bayern Munich,1,5
+INT-Champions League,2425,6aa52408,2024-12-11,Arsenal,Monaco,3,0
+INT-Champions League,2425,bfe9f8f6,2024-12-11,Atlético Madrid,Slovan Bratislava,3,1
+INT-Champions League,2425,539a620f,2024-12-11,Benfica,Bologna,0,0
+INT-Champions League,2425,cf33e56f,2024-12-11,Dortmund,Barcelona,2,3
+INT-Champions League,2425,4e152dc8,2024-12-11,Feyenoord,Sparta Prague,4,2
+INT-Champions League,2425,10b5de7b,2024-12-11,Juventus,Manchester City,2,0
+INT-Champions League,2425,e80b91b4,2024-12-11,Lille,Sturm Graz,3,2
+INT-Champions League,2425,5ff4551f,2024-12-11,Milan,Red Star,2,1
+INT-Champions League,2425,379275b8,2024-12-11,Stuttgart,Young Boys,5,1
+INT-Champions League,2425,16649d85,2025-01-21,Atalanta,Sturm Graz,5,0
+INT-Champions League,2425,1db7242e,2025-01-21,Atlético Madrid,Leverkusen,2,1
+INT-Champions League,2425,b72a4588,2025-01-21,Benfica,Barcelona,4,5
+INT-Champions League,2425,d18fc520,2025-01-21,Bologna,Dortmund,2,1
+INT-Champions League,2425,56137f1a,2025-01-21,Club Brugge,Juventus,0,0
+INT-Champions League,2425,99c3796e,2025-01-21,Liverpool,Lille,2,1
+INT-Champions League,2425,283b037e,2025-01-21,Monaco,Aston Villa,1,0
+INT-Champions League,2425,753c8418,2025-01-21,Red Star,PSV,2,3
+INT-Champions League,2425,c0617888,2025-01-21,Slovan Bratislava,Stuttgart,1,3
+INT-Champions League,2425,99da618c,2025-01-22,Arsenal,Dinamo Zagreb,3,0
+INT-Champions League,2425,893e3e53,2025-01-22,Celtic,Young Boys,1,0
+INT-Champions League,2425,24be9d81,2025-01-22,Feyenoord,Bayern Munich,3,0
+INT-Champions League,2425,f10cc3c6,2025-01-22,Milan,Girona,1,0
+INT-Champions League,2425,f60939a2,2025-01-22,PSG,Manchester City,4,2
+INT-Champions League,2425,ccdff5cf,2025-01-22,RB Leipzig,Sporting CP,2,1
+INT-Champions League,2425,392ed912,2025-01-22,Real Madrid,RB Salzburg,5,1
+INT-Champions League,2425,84478d9e,2025-01-22,Shakhtar D.,Brest,2,0
+INT-Champions League,2425,8a6b0026,2025-01-22,Sparta Prague,Inter,0,1
+INT-Champions League,2425,25e58fe8,2025-01-29,Aston Villa,Celtic,4,2
+INT-Champions League,2425,7fd1f0e9,2025-01-29,Barcelona,Atalanta,2,2
+INT-Champions League,2425,e44e7126,2025-01-29,Bayern Munich,Slovan Bratislava,3,1
+INT-Champions League,2425,12d6e866,2025-01-29,Brest,Real Madrid,0,3
+INT-Champions League,2425,e54e9914,2025-01-29,Dinamo Zagreb,Milan,2,1
+INT-Champions League,2425,6afd7012,2025-01-29,Dortmund,Shakhtar D.,3,1
+INT-Champions League,2425,d7d20b67,2025-01-29,Girona,Arsenal,1,2
+INT-Champions League,2425,9d8d169c,2025-01-29,Inter,Monaco,3,0
+INT-Champions League,2425,2505e711,2025-01-29,Juventus,Benfica,0,2
+INT-Champions League,2425,9dc1db6f,2025-01-29,Leverkusen,Sparta Prague,2,0
+INT-Champions League,2425,39998098,2025-01-29,Lille,Feyenoord,6,1
+INT-Champions League,2425,85437667,2025-01-29,Manchester City,Club Brugge,3,1
+INT-Champions League,2425,9c6b4eca,2025-01-29,PSV,Liverpool,3,2
+INT-Champions League,2425,48d705ae,2025-01-29,RB Salzburg,Atlético Madrid,1,4
+INT-Champions League,2425,49c46c78,2025-01-29,Sporting CP,Bologna,1,1
+INT-Champions League,2425,30a931ba,2025-01-29,Sturm Graz,RB Leipzig,1,0
+INT-Champions League,2425,438254ac,2025-01-29,Stuttgart,PSG,1,4
+INT-Champions League,2425,d385302d,2025-01-29,Young Boys,Red Star,0,1
+INT-Champions League,2425,7f0d9a30,2025-02-11,Brest,PSG,0,3
+INT-Champions League,2425,0c2a0842,2025-02-11,Juventus,PSV,2,1
+INT-Champions League,2425,da89a9e9,2025-02-11,Manchester City,Real Madrid,2,3
+INT-Champions League,2425,e6071adf,2025-02-11,Sporting CP,Dortmund,0,3
+INT-Champions League,2425,b424ad1b,2025-02-12,Celtic,Bayern Munich,1,2
+INT-Champions League,2425,0fc8931f,2025-02-12,Club Brugge,Atalanta,2,1
+INT-Champions League,2425,8a35132b,2025-02-12,Feyenoord,Milan,1,0
+INT-Champions League,2425,2bafb4ba,2025-02-12,Monaco,Benfica,0,1
+INT-Champions League,2425,fba6a162,2025-02-18,Atalanta,Club Brugge,1,3
+INT-Champions League,2425,bfa4d3e7,2025-02-18,Bayern Munich,Celtic,1,1
+INT-Champions League,2425,16ae1e2c,2025-02-18,Benfica,Monaco,3,3
+INT-Champions League,2425,098b80cd,2025-02-18,Milan,Feyenoord,1,1
+INT-Champions League,2425,4dadf9f4,2025-02-19,Dortmund,Sporting CP,0,0
+INT-Champions League,2425,3f7162f1,2025-02-19,PSG,Brest,7,0
+INT-Champions League,2425,2aae1e3d,2025-02-19,PSV,Juventus,3,1
+INT-Champions League,2425,bef7ecbf,2025-02-19,Real Madrid,Manchester City,3,1
+INT-Champions League,2425,e2019af7,2025-03-04,Club Brugge,Aston Villa,1,3
+INT-Champions League,2425,605bc7e5,2025-03-04,Dortmund,Lille,1,1
+INT-Champions League,2425,f7748494,2025-03-04,PSV,Arsenal,1,7
+INT-Champions League,2425,4bfe43d6,2025-03-04,Real Madrid,Atlético Madrid,2,1
+INT-Champions League,2425,eee40d27,2025-03-05,Bayern Munich,Leverkusen,3,0
+INT-Champions League,2425,41097255,2025-03-05,Benfica,Barcelona,0,1
+INT-Champions League,2425,819931ad,2025-03-05,Feyenoord,Inter,0,2
+INT-Champions League,2425,c171d3bc,2025-03-05,PSG,Liverpool,0,1
+INT-Champions League,2425,de8e7ccc,2025-03-11,Barcelona,Benfica,3,1
+INT-Champions League,2425,11701266,2025-03-11,Inter,Feyenoord,2,1
+INT-Champions League,2425,6250977f,2025-03-11,Leverkusen,Bayern Munich,0,2
+INT-Champions League,2425,c27417c6,2025-03-12,Arsenal,PSV,2,2
+INT-Champions League,2425,0f972b25,2025-03-12,Aston Villa,Club Brugge,3,0
+INT-Champions League,2425,c2147a07,2025-03-12,Lille,Dortmund,1,2
+INT-Champions League,2425,bbf76516,2025-04-08,Arsenal,Real Madrid,3,0
+INT-Champions League,2425,7f7b941a,2025-04-08,Bayern Munich,Inter,1,2
+INT-Champions League,2425,8b67c631,2025-04-09,Barcelona,Dortmund,4,0
+INT-Champions League,2425,9f9e8b53,2025-04-09,PSG,Aston Villa,3,1
+INT-Champions League,2425,0fd085bd,2025-04-15,Aston Villa,PSG,3,2
+INT-Champions League,2425,a7b1cab8,2025-04-15,Dortmund,Barcelona,3,1
+INT-Champions League,2425,1219dd65,2025-04-16,Inter,Bayern Munich,2,2
+INT-Champions League,2425,b3039bb2,2025-04-16,Real Madrid,Arsenal,1,2
+INT-Champions League,2425,d85808e6,2025-04-29,Arsenal,PSG,0,1
+INT-Champions League,2425,4b3ea62f,2025-04-30,Barcelona,Inter,3,3
+INT-Champions League,2425,ff6aaaa9,2025-05-06,Inter,Barcelona,4,3
+INT-Champions League,2425,a73bdd5b,2025-05-07,PSG,Arsenal,2,1
+INT-Champions League,2425,5185c7d5,2025-05-31,PSG,Inter,5,0
+INT-Champions League,2526,bea5d97a,2025-09-16,Athletic Club,Arsenal,0,2
+INT-Champions League,2526,09951d6f,2025-09-16,Benfica,Qarabağ,2,3
+INT-Champions League,2526,fd940777,2025-09-16,Juventus,Dortmund,4,4
+INT-Champions League,2526,55f1e483,2025-09-16,PSV,Union SG,1,3
+INT-Champions League,2526,da642f56,2025-09-16,Real Madrid,Marseille,2,1
+INT-Champions League,2526,163add56,2025-09-16,Tottenham,Villarreal,1,0
+INT-Champions League,2526,d8ae5064,2025-09-17,Ajax,Inter,0,2
+INT-Champions League,2526,d8142627,2025-09-17,Bayern Munich,Chelsea,3,1
+INT-Champions League,2526,aaca9bcb,2025-09-17,Liverpool,Atlético Madrid,3,2
+INT-Champions League,2526,24c159e8,2025-09-17,Olympiacos,Pafos FC,0,0
+INT-Champions League,2526,d7a07227,2025-09-17,PSG,Atalanta,4,0
+INT-Champions League,2526,0aabb023,2025-09-17,Slavia Prague,Bodø/Glimt,2,2
+INT-Champions League,2526,cb2a4725,2025-09-18,Club Brugge,Monaco,4,1
+INT-Champions League,2526,04664542,2025-09-18,FC Copenhagen,Leverkusen,2,2
+INT-Champions League,2526,96500f2e,2025-09-18,Frankfurt,Galatasaray,5,1
+INT-Champions League,2526,dc462ab9,2025-09-18,Manchester City,Napoli,2,0
+INT-Champions League,2526,53708b73,2025-09-18,Newcastle,Barcelona,1,2
+INT-Champions League,2526,8c31c662,2025-09-18,Sporting CP,FC Kairat,4,1
+INT-Champions League,2526,faa23c65,2025-09-30,Atalanta,Club Brugge,2,1
+INT-Champions League,2526,bc209de1,2025-09-30,Atlético Madrid,Frankfurt,5,1
+INT-Champions League,2526,54179334,2025-09-30,Bodø/Glimt,Tottenham,2,2
+INT-Champions League,2526,72b9bd4f,2025-09-30,Chelsea,Benfica,1,0
+INT-Champions League,2526,36ad3a92,2025-09-30,FC Kairat,Real Madrid,0,5
+INT-Champions League,2526,ad5b86fc,2025-09-30,Galatasaray,Liverpool,1,0
+INT-Champions League,2526,52f10a04,2025-09-30,Inter,Slavia Prague,3,0
+INT-Champions League,2526,8180729f,2025-09-30,Marseille,Ajax,4,0
+INT-Champions League,2526,0167be93,2025-09-30,Pafos FC,Bayern Munich,1,5
+INT-Champions League,2526,9b470fba,2025-10-01,Arsenal,Olympiacos,2,0
+INT-Champions League,2526,01f948be,2025-10-01,Barcelona,PSG,1,2
+INT-Champions League,2526,456601f1,2025-10-01,Dortmund,Athletic Club,4,1
+INT-Champions League,2526,adec29e6,2025-10-01,Leverkusen,PSV,1,1
+INT-Champions League,2526,625d4779,2025-10-01,Monaco,Manchester City,2,2
+INT-Champions League,2526,0def235c,2025-10-01,Napoli,Sporting CP,2,1
+INT-Champions League,2526,dd305ccd,2025-10-01,Qarabağ,FC Copenhagen,2,0
+INT-Champions League,2526,b59bda26,2025-10-01,Union SG,Newcastle,0,4
+INT-Champions League,2526,568fef5b,2025-10-01,Villarreal,Juventus,2,2
+INT-Champions League,2526,eb69818b,2025-10-21,Arsenal,Atlético Madrid,4,0
+INT-Champions League,2526,d1cd53ab,2025-10-21,Barcelona,Olympiacos,6,1
+INT-Champions League,2526,41abb87d,2025-10-21,FC Copenhagen,Dortmund,2,4
+INT-Champions League,2526,81e0e1bc,2025-10-21,FC Kairat,Pafos FC,0,0
+INT-Champions League,2526,b3c2cd75,2025-10-21,Leverkusen,PSG,2,7
+INT-Champions League,2526,0a4bcfee,2025-10-21,Newcastle,Benfica,3,0
+INT-Champions League,2526,b3d5ed14,2025-10-21,PSV,Napoli,6,2
+INT-Champions League,2526,7bbb4c34,2025-10-21,Union SG,Inter,0,4
+INT-Champions League,2526,a16070e0,2025-10-21,Villarreal,Manchester City,0,2
+INT-Champions League,2526,9d6c47dd,2025-10-22,Atalanta,Slavia Prague,0,0
+INT-Champions League,2526,a3b54f5a,2025-10-22,Athletic Club,Qarabağ,3,1
+INT-Champions League,2526,3575ee98,2025-10-22,Bayern Munich,Club Brugge,4,0
+INT-Champions League,2526,9e61762b,2025-10-22,Chelsea,Ajax,5,1
+INT-Champions League,2526,81f9de1b,2025-10-22,Frankfurt,Liverpool,1,5
+INT-Champions League,2526,efbed8f6,2025-10-22,Galatasaray,Bodø/Glimt,3,1
+INT-Champions League,2526,e75c2e71,2025-10-22,Monaco,Tottenham,0,0
+INT-Champions League,2526,f852850a,2025-10-22,Real Madrid,Juventus,1,0
+INT-Champions League,2526,cc2455ff,2025-10-22,Sporting CP,Marseille,2,1
+INT-Champions League,2526,8fa157cf,2025-11-04,Atlético Madrid,Union SG,3,1
+INT-Champions League,2526,c5a6b073,2025-11-04,Bodø/Glimt,Monaco,0,1
+INT-Champions League,2526,82e10a79,2025-11-04,Juventus,Sporting CP,1,1
+INT-Champions League,2526,c520d457,2025-11-04,Liverpool,Real Madrid,1,0
+INT-Champions League,2526,397ea615,2025-11-04,Napoli,Frankfurt,0,0
+INT-Champions League,2526,f11d1d87,2025-11-04,Olympiacos,PSV,1,1
+INT-Champions League,2526,29822d1e,2025-11-04,PSG,Bayern Munich,1,2
+INT-Champions League,2526,716ef24e,2025-11-04,Slavia Prague,Arsenal,0,3
+INT-Champions League,2526,0b4ec308,2025-11-04,Tottenham,FC Copenhagen,4,0
+INT-Champions League,2526,6f9b2ad8,2025-11-05,Ajax,Galatasaray,0,3
+INT-Champions League,2526,9de891f0,2025-11-05,Benfica,Leverkusen,0,1
+INT-Champions League,2526,e98a3106,2025-11-05,Club Brugge,Barcelona,3,3
+INT-Champions League,2526,74568071,2025-11-05,Inter,FC Kairat,2,1
+INT-Champions League,2526,4c4cc6a1,2025-11-05,Manchester City,Dortmund,4,1
+INT-Champions League,2526,559b75cf,2025-11-05,Marseille,Atalanta,0,1
+INT-Champions League,2526,83f9e231,2025-11-05,Newcastle,Athletic Club,2,0
+INT-Champions League,2526,633d3171,2025-11-05,Pafos FC,Villarreal,1,0
+INT-Champions League,2526,a905a8d0,2025-11-05,Qarabağ,Chelsea,2,2
+INT-Champions League,2526,8dbe16fe,2025-11-25,Ajax,Benfica,0,2
+INT-Champions League,2526,03c473e7,2025-11-25,Bodø/Glimt,Juventus,2,3
+INT-Champions League,2526,1d5355d4,2025-11-25,Chelsea,Barcelona,3,0
+INT-Champions League,2526,9f5915ff,2025-11-25,Dortmund,Villarreal,4,0
+INT-Champions League,2526,8680fdaa,2025-11-25,Galatasaray,Union SG,0,1
+INT-Champions League,2526,ef8d3dfb,2025-11-25,Manchester City,Leverkusen,0,2
+INT-Champions League,2526,e53305cc,2025-11-25,Marseille,Newcastle,2,1
+INT-Champions League,2526,9918c573,2025-11-25,Napoli,Qarabağ,2,0
+INT-Champions League,2526,d993af85,2025-11-25,Slavia Prague,Athletic Club,0,0
+INT-Champions League,2526,8436e427,2025-11-26,Arsenal,Bayern Munich,3,1
+INT-Champions League,2526,1152f0e9,2025-11-26,Atlético Madrid,Inter,2,1
+INT-Champions League,2526,c43ed1b8,2025-11-26,FC Copenhagen,FC Kairat,3,2
+INT-Champions League,2526,720fd028,2025-11-26,Frankfurt,Atalanta,0,3
+INT-Champions League,2526,dac9e00f,2025-11-26,Liverpool,PSV,1,4
+INT-Champions League,2526,4218b93a,2025-11-26,Olympiacos,Real Madrid,3,4
+INT-Champions League,2526,cff71a79,2025-11-26,PSG,Tottenham,5,3
+INT-Champions League,2526,cdf213a8,2025-11-26,Pafos FC,Monaco,2,2
+INT-Champions League,2526,07ad9e86,2025-11-26,Sporting CP,Club Brugge,3,0
+INT-Champions League,2526,eb993fe2,2025-12-09,Atalanta,Chelsea,2,1
+INT-Champions League,2526,f302a362,2025-12-09,Barcelona,Frankfurt,2,1
+INT-Champions League,2526,358e563a,2025-12-09,Bayern Munich,Sporting CP,3,1
+INT-Champions League,2526,d86d814b,2025-12-09,FC Kairat,Olympiacos,0,1
+INT-Champions League,2526,2f0ddd1f,2025-12-09,Inter,Liverpool,0,1
+INT-Champions League,2526,720903e7,2025-12-09,Monaco,Galatasaray,1,0
+INT-Champions League,2526,10bb42b3,2025-12-09,PSV,Atlético Madrid,2,3
+INT-Champions League,2526,71662e7e,2025-12-09,Tottenham,Slavia Prague,3,0
+INT-Champions League,2526,a70811e8,2025-12-09,Union SG,Marseille,2,3
+INT-Champions League,2526,95dd2723,2025-12-10,Athletic Club,PSG,0,0
+INT-Champions League,2526,111bcd6c,2025-12-10,Benfica,Napoli,2,0
+INT-Champions League,2526,211e2c54,2025-12-10,Club Brugge,Arsenal,0,3
+INT-Champions League,2526,1cd25106,2025-12-10,Dortmund,Bodø/Glimt,2,2
+INT-Champions League,2526,c2ced7c2,2025-12-10,Juventus,Pafos FC,2,0
+INT-Champions League,2526,7a420467,2025-12-10,Leverkusen,Newcastle,2,2
+INT-Champions League,2526,a0306924,2025-12-10,Qarabağ,Ajax,2,4
+INT-Champions League,2526,b3ad23d4,2025-12-10,Real Madrid,Manchester City,1,2
+INT-Champions League,2526,3b7a75d0,2025-12-10,Villarreal,FC Copenhagen,2,3
+INT-Champions League,2526,8e951e36,2026-01-20,Bodø/Glimt,Manchester City,3,1
+INT-Champions League,2526,2b90bfe5,2026-01-20,FC Copenhagen,Napoli,1,1
+INT-Champions League,2526,f32373c1,2026-01-20,FC Kairat,Club Brugge,1,4
+INT-Champions League,2526,6b2f3e56,2026-01-20,Inter,Arsenal,1,3
+INT-Champions League,2526,8b67bd16,2026-01-20,Olympiacos,Leverkusen,2,0
+INT-Champions League,2526,95b73e54,2026-01-20,Real Madrid,Monaco,6,1
+INT-Champions League,2526,cd77ed9a,2026-01-20,Sporting CP,PSG,2,1
+INT-Champions League,2526,00713c13,2026-01-20,Tottenham,Dortmund,2,0
+INT-Champions League,2526,d01bf57a,2026-01-20,Villarreal,Ajax,1,2
+INT-Champions League,2526,0e7b0a00,2026-01-21,Atalanta,Athletic Club,2,3
+INT-Champions League,2526,b5ae43f1,2026-01-21,Bayern Munich,Union SG,2,0
+INT-Champions League,2526,04910590,2026-01-21,Chelsea,Pafos FC,1,0
+INT-Champions League,2526,efe0060f,2026-01-21,Galatasaray,Atlético Madrid,1,1
+INT-Champions League,2526,25e9c011,2026-01-21,Juventus,Benfica,2,0
+INT-Champions League,2526,c8749b66,2026-01-21,Marseille,Liverpool,0,3
+INT-Champions League,2526,e4cb71d9,2026-01-21,Newcastle,PSV,3,0
+INT-Champions League,2526,8208b187,2026-01-21,Qarabağ,Frankfurt,3,2
+INT-Champions League,2526,cd825133,2026-01-21,Slavia Prague,Barcelona,2,4
+INT-Champions League,2526,d4d9df62,2026-01-28,Ajax,Olympiacos,1,2
+INT-Champions League,2526,81022670,2026-01-28,Arsenal,FC Kairat,3,2
+INT-Champions League,2526,d5698190,2026-01-28,Athletic Club,Sporting CP,2,3
+INT-Champions League,2526,6e65e70f,2026-01-28,Atlético Madrid,Bodø/Glimt,1,2
+INT-Champions League,2526,03345458,2026-01-28,Barcelona,FC Copenhagen,4,1
+INT-Champions League,2526,3a9b3391,2026-01-28,Benfica,Real Madrid,4,2
+INT-Champions League,2526,89ecd11c,2026-01-28,Club Brugge,Marseille,3,0
+INT-Champions League,2526,b9aa1986,2026-01-28,Dortmund,Inter,0,2
+INT-Champions League,2526,58a4d460,2026-01-28,Frankfurt,Tottenham,0,2
+INT-Champions League,2526,7448c24d,2026-01-28,Leverkusen,Villarreal,3,0
+INT-Champions League,2526,118f6dda,2026-01-28,Liverpool,Qarabağ,6,0
+INT-Champions League,2526,7e57e8a7,2026-01-28,Manchester City,Galatasaray,2,0
+INT-Champions League,2526,58961c11,2026-01-28,Monaco,Juventus,0,0
+INT-Champions League,2526,069cf38e,2026-01-28,Napoli,Chelsea,2,3
+INT-Champions League,2526,783e17da,2026-01-28,PSG,Newcastle,1,1
+INT-Champions League,2526,bd8505ba,2026-01-28,PSV,Bayern Munich,1,2
+INT-Champions League,2526,1360d7a0,2026-01-28,Pafos FC,Slavia Prague,4,1
+INT-Champions League,2526,f9a466ca,2026-01-28,Union SG,Atalanta,1,0
+INT-Champions League,2526,9a09b8fb,2026-02-17,Benfica,Real Madrid,0,1
+INT-Champions League,2526,24cd4644,2026-02-17,Dortmund,Atalanta,2,0
+INT-Champions League,2526,b0455100,2026-02-17,Galatasaray,Juventus,5,2
+INT-Champions League,2526,cbab3921,2026-02-17,Monaco,PSG,2,3
+INT-Champions League,2526,588cf540,2026-02-18,Bodø/Glimt,Inter,3,1
+INT-Champions League,2526,5ec01769,2026-02-18,Club Brugge,Atlético Madrid,3,3
+INT-Champions League,2526,031da5ca,2026-02-18,Olympiacos,Leverkusen,0,2
+INT-Champions League,2526,5bbc31cf,2026-02-18,Qarabağ,Newcastle,1,6
+INT-Champions League,2526,90d967b3,2026-02-24,Atlético Madrid,Club Brugge,4,1
+INT-Champions League,2526,5e7c74db,2026-02-24,Inter,Bodø/Glimt,1,2
+INT-Champions League,2526,68ac290d,2026-02-24,Leverkusen,Olympiacos,0,0
+INT-Champions League,2526,25268603,2026-02-24,Newcastle,Qarabağ,3,2
+INT-Champions League,2526,920ee81a,2026-02-25,Atalanta,Dortmund,4,1
+INT-Champions League,2526,c370fac4,2026-02-25,Juventus,Galatasaray,3,2
+INT-Champions League,2526,5f758aae,2026-02-25,PSG,Monaco,2,2
+INT-Champions League,2526,edd5a44f,2026-02-25,Real Madrid,Benfica,2,1
+INT-Champions League,2526,641dac9e,2026-03-10,Atalanta,Bayern Munich,1,6
+INT-Champions League,2526,6cc09928,2026-03-10,Atlético Madrid,Tottenham,5,2
+INT-Champions League,2526,aaaee13a,2026-03-10,Galatasaray,Liverpool,1,0
+INT-Champions League,2526,e65f6e88,2026-03-10,Newcastle,Barcelona,1,1
+INT-Champions League,2526,1cb8494d,2026-03-11,Bodø/Glimt,Sporting CP,3,0
+INT-Champions League,2526,8ac35220,2026-03-11,Leverkusen,Arsenal,1,1
+INT-Champions League,2526,204f412b,2026-03-11,PSG,Chelsea,5,2
+INT-Champions League,2526,eb4ca336,2026-03-11,Real Madrid,Manchester City,3,0
+INT-Champions League,2526,df3696b5,2026-03-17,Arsenal,Leverkusen,2,0
+INT-Champions League,2526,8247508b,2026-03-17,Chelsea,PSG,0,3
+INT-Champions League,2526,61478683,2026-03-17,Manchester City,Real Madrid,1,2
+INT-Champions League,2526,9ea33b38,2026-03-17,Sporting CP,Bodø/Glimt,5,0
+INT-Champions League,2526,ac26edb1,2026-03-18,Barcelona,Newcastle,7,2
+INT-Champions League,2526,954c67e8,2026-03-18,Bayern Munich,Atalanta,4,1
+INT-Champions League,2526,46ccf9e9,2026-03-18,Liverpool,Galatasaray,4,0
+INT-Champions League,2526,10a26782,2026-03-18,Tottenham,Atlético Madrid,3,2
+INT-Champions League,2526,bb08fbb2,2026-04-07,Real Madrid,Bayern Munich,1,2
+INT-Champions League,2526,9448b0a3,2026-04-07,Sporting CP,Arsenal,0,1
+INT-Champions League,2526,3f6d5e1a,2026-04-08,Barcelona,Atlético Madrid,0,2
+INT-Champions League,2526,eb9b55fb,2026-04-08,PSG,Liverpool,2,0
+INT-Champions League,2526,307181ed,2026-04-14,Atlético Madrid,Barcelona,1,2
+INT-Champions League,2526,f4be5c9f,2026-04-14,Liverpool,PSG,0,2
+INT-Champions League,2526,c5b7c775,2026-04-15,Arsenal,Sporting CP,0,0
+INT-Champions League,2526,3dfc548a,2026-04-15,Bayern Munich,Real Madrid,4,3
+INT-Champions League,2526,ed9f3eae,2026-04-28,PSG,Bayern Munich,5,4
+INT-Champions League,2526,f0faa228,2026-04-29,Atlético Madrid,Arsenal,1,1
+INT-Champions League,2526,42f5fbaf,2026-05-05,Arsenal,Atlético Madrid,1,0
+INT-Champions League,2526,235bdaac,2026-05-06,Bayern Munich,PSG,1,1
+INT-Champions League,2627,ebae4e12,2026-07-07,Ararat-Armenia,Rīga FC,2,0
+INT-Champions League,2627,89a8e166,2026-07-07,B. Banja Luka,Levski Sofia,1,1
+INT-Champions League,2627,9a46ef63,2026-07-07,FK Vardar,KuPS,0,2
+INT-Champions League,2627,1eca45ed,2026-07-07,Floriana FC,Shamrock,2,0
+INT-Champions League,2627,17b74a87,2026-07-07,KV,Győr,1,0
+INT-Champions League,2627,439ede10,2026-07-07,Kauno Žalgiris,KF Drita,1,1
+INT-Champions League,2627,48777d1c,2026-07-07,KÍ Klaksvík,FC Atert Bissen,2,1
+INT-Champions League,2627,06161dae,2026-07-07,Lincoln FC,Inter d'Escaldes,3,1
+INT-Champions League,2627,fe148252,2026-07-07,Sabah FK,The New Saints,2,0
+INT-Champions League,2627,27c5a259,2026-07-07,Tre Fiori,Larne FC,0,1
+INT-Champions League,2627,9ed6535f,2026-07-08,FC Flora,Iberia 1999,2,3
+INT-Champions League,2627,ce75dd1e,2026-07-08,FC Kairat,Sutjeska Nikšić,2,1
+INT-Champions League,2627,f02a3c2d,2026-07-08,ML Vitebsk,CS U Craiova,1,4
+INT-Champions League,2627,8178a816,2026-07-08,Petrocub,FK Egnatia,1,1
+INT-Champions League,2627,7accf4c5,2026-07-14,Győr,KV,2,2
+INT-Champions League,2627,b3142acb,2026-07-14,Iberia 1999,FC Flora,2,2
+INT-Champions League,2627,b4f25410,2026-07-14,Inter d'Escaldes,Lincoln FC,1,1
+INT-Champions League,2627,083d73cd,2026-07-14,KF Drita,Kauno Žalgiris,2,3
+INT-Champions League,2627,84c43b57,2026-07-14,KuPS,FK Vardar,2,3
+INT-Champions League,2627,8452fb62,2026-07-14,Larne FC,Tre Fiori,2,1
+INT-Champions League,2627,32d887a3,2026-07-14,Levski Sofia,B. Banja Luka,4,0
+INT-Champions League,2627,8bcb803c,2026-07-14,Rīga FC,Ararat-Armenia,3,2
+INT-Champions League,2627,7b1376c8,2026-07-14,Shamrock,Floriana FC,5,1
+INT-Champions League,2627,68c88dbf,2026-07-14,The New Saints,Sabah FK,1,2
+INT-Champions League,2627,182bd358,2026-07-15,CS U Craiova,ML Vitebsk,1,0
+INT-Champions League,2627,e81af46e,2026-07-15,FC Atert Bissen,KÍ Klaksvík,1,2
+INT-Champions League,2627,c34b90b6,2026-07-15,FK Egnatia,Petrocub,6,1
+INT-Champions League,2627,568c17cb,2026-07-15,Sutjeska Nikšić,FC Kairat,0,2
+INT-Champions League,2627,5999540d,2026-07-21,AGF,Lech Poznań,1,4
+INT-Champions League,2627,9a83b147,2026-07-21,Ararat-Armenia,Shamrock,2,0
+INT-Champions League,2627,1daf5910,2026-07-21,Fenerbahçe,Górnik Zabrze,1,0
+INT-Champions League,2627,9fc92f98,2026-07-21,Iberia 1999,Slovan Bratislava,0,2
+INT-Champions League,2627,4882f1a3,2026-07-21,KV,H. Be'er Sheva,2,1
+INT-Champions League,2627,c0cb122a,2026-07-21,KÍ Klaksvík,Kauno Žalgiris,0,0
+INT-Champions League,2627,f07ab67d,2026-07-21,Larne FC,Red Star,0,4
+INT-Champions League,2627,24fa960f,2026-07-21,Mjällby,Lincoln FC,3,0
+INT-Champions League,2627,a63eb038,2026-07-21,Sabah FK,KuPS,1,0
+INT-Champions League,2627,807a9e6c,2026-07-21,Sturm Graz,Hearts,4,0
+INT-Champions League,2627,050c5acf,2026-07-21,Thun,Dinamo Zagreb,1,1
+INT-Champions League,2627,f3dfe788,2026-07-22,AC Omonia,FC Kairat,1,0
+INT-Champions League,2627,1f2a6c84,2026-07-22,FK Egnatia,NK Celje,3,3
+INT-Champions League,2627,6e16dd6a,2026-07-22,Levski Sofia,CS U Craiova,1,0
+INT-Champions League,2627,a141f682,2026-07-28,Dinamo Zagreb,Thun,3,2
+INT-Champions League,2627,1a2ca939,2026-07-28,Hearts,Sturm Graz,0,2
+INT-Champions League,2627,b8fda983,2026-07-28,KuPS,Sabah FK,0,2
+INT-Champions League,2627,baa3cd34,2026-07-28,Lincoln FC,Mjällby,0,0
+INT-Champions League,2627,d17ef9ed,2026-07-28,Shamrock,Ararat-Armenia,2,1
+INT-Champions League,2627,3a7ea210,2026-07-29,CS U Craiova,Levski Sofia,2,2
+INT-Champions League,2627,137e1448,2026-07-29,Górnik Zabrze,Fenerbahçe,1,1
+INT-Champions League,2627,8d26cf67,2026-07-29,H. Be'er Sheva,KV,2,0
+INT-Champions League,2627,ae76752b,2026-07-29,Kauno Žalgiris,KÍ Klaksvík,1,0
+INT-Champions League,2627,a6e81ed0,2026-07-29,Red Star,Larne FC,5,0
+INT-Champions League,2627,3f16776d,2026-07-29,Slovan Bratislava,Iberia 1999,1,1
