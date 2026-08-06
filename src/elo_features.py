@@ -41,6 +41,8 @@ def add_elo_features(matches: pd.DataFrame, elo_long: pd.DataFrame) -> pd.DataFr
     matches['date'] = pd.to_datetime(matches['date'])
     matches = matches.sort_values('date')
 
+    elo_long = elo_long.sort_values('from') # sort elo_long by 'from' to ensure correct merging
+
     home_elo = pd.merge_asof(
         matches,
         elo_long.rename(columns={'team': 'home_team', 'from': 'date', 'elo': 'home_elo'}),
