@@ -14,3 +14,7 @@ FIXTURES_WITH_ELO_PATH = f"{PROJECT_PATH}/data/processed/fixtures_with_elo.csv"
 RAW_SOFIFA_PATH = f"{PROJECT_PATH}/data/external/sofifa_team_ratings.csv"
 PROCESSED_WITH_TRANSFER_PATH = f"{PROJECT_PATH}/data/processed/matches_with_transfer.csv"
 FIXTURES_WITH_TRANSFER_PATH = f"{PROJECT_PATH}/data/processed/fixtures_with_transfer.csv"
+
+Review_PATH = f"{PROJECT_PATH}/data/external/team_name_review.csv"
+json_mapping_path = f"{PROJECT_PATH}/data/external/teamname_replacements_auto.json"
+Need_Review_PATH = f"{PROJECT_PATH}/data/external/team_name_needs_review.csv"
