@@ -18,3 +18,6 @@ FIXTURES_WITH_TRANSFER_PATH = f"{PROJECT_PATH}/data/processed/fixtures_with_tran
 Review_PATH = f"{PROJECT_PATH}/data/external/team_name_review.csv"
 json_mapping_path = f"{PROJECT_PATH}/data/external/teamname_replacements_auto.json"
 Need_Review_PATH = f"{PROJECT_PATH}/data/external/team_name_needs_review.csv"
+
+TRAINING_DATA_PATH = f"{PROJECT_PATH}/data/final/training_data.csv"
+TO_PREDICT_DATA_PATH = f"{PROJECT_PATH}/data/final/to_predict_data.csv"
