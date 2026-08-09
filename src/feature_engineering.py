@@ -8,30 +8,44 @@ from Configuration import (
     TO_PREDICT_DATA_PATH,
 )
 
+VALID_SEASONS = ['2122', '2223', '2324', '2425', '2526', '2627']
 
-# fill missing Elo / squad rating values
+
+# keep only the seasons we actually asked for
+def filter_valid_seasons(df: pd.DataFrame) -> pd.DataFrame:
+    before = len(df)
+    df = df[df['season'].astype(str).isin(VALID_SEASONS)].copy()
+    dropped = before - len(df)
+    if dropped:
+        print(f"⚠️ Dropped {dropped} rows outside {VALID_SEASONS} (e.g. leaked historical seasons)")
+    return df
+
+
+# fill missing Elo / squad rating / squad delta values
 def fill_missing_ratings(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
+    # Elo and squad rating -> fill with league/season average
     for col in ['home_elo', 'away_elo', 'home_squad_rating', 'away_squad_rating']:
-        df[f'{col}_missing'] = df[col].isna()  
+        df[f'{col}_missing'] = df[col].isna()
         league_avg = df.groupby(['league', 'season'])[col].transform('mean')
         df[col] = df[col].fillna(league_avg)
-        df[col] = df[col].fillna(df[col].mean()) # fill any remaining NaN with overall mean
+        df[col] = df[col].fillna(df[col].mean())  # safety net for empty groups
 
+    # Squad delta -> fill with league/season average, then 0 ("no known change")
     for col in ['home_squad_delta', 'away_squad_delta']:
         df[f'{col}_missing'] = df[col].isna()
         league_avg = df.groupby(['league', 'season'])[col].transform('mean')
         df[col] = df[col].fillna(league_avg)
-        df[col] = df[col].fillna(0) # fill any remaining NaN with 0, assuming no change in squad rating if missing
+        df[col] = df[col].fillna(0)
 
     df['elo_diff'] = df['home_elo'] - df['away_elo']
     df['squad_rating_diff'] = df['home_squad_rating'] - df['away_squad_rating']
+    df['squad_delta_diff'] = df['home_squad_delta'] - df['away_squad_delta']
     return df
 
 
-
-# rolling form (points + goal difference), leakage-safe
+# Rolling form (points + goal difference), leakage-safe
 def add_rolling_form(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
     df = df.sort_values('date').copy()
 
@@ -69,9 +83,8 @@ def add_rolling_form(df: pd.DataFrame, window: int = 5) -> pd.DataFrame:
         on='date', by='away_team', direction='backward'
     )
 
-    # First few matches for a team have no history -> NaN. Fill with a neutral midpoint.
     for col in ['home_form_pts', 'away_form_pts']:
-        df[col] = df[col].fillna(1.5)  # average points per match around 1.5
+        df[col] = df[col].fillna(1.5)
     for col in ['home_form_gd', 'away_form_gd']:
         df[col] = df[col].fillna(0)
 
@@ -101,13 +114,14 @@ def add_rest_days(df: pd.DataFrame) -> pd.DataFrame:
             long_dates[['team', 'date', 'rest_days']].rename(columns={'team': side, 'rest_days': col_name}),
             on='date', by=side, direction='backward'
         )
-        df[col_name] = merged[col_name].fillna(7)  # assume a normal week's rest if no prior match on record
+        df[col_name] = merged[col_name].fillna(7)
 
     df['rest_days_diff'] = df['home_team_rest_days'] - df['away_team_rest_days']
     return df
 
 
-# target variable: H/D/A based on home_score vs away_score
+
+# target label (only meaningful for played matches) 
 def add_target(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     conditions = [df['home_score'] > df['away_score'], df['home_score'] == df['away_score']]
@@ -115,21 +129,23 @@ def add_target(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+
 # Pipeline
-def build_features(df: pd.DataFrame, is_played: bool) -> pd.DataFrame:
+def build_features(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df['date'] = pd.to_datetime(df['date'])
     df = fill_missing_ratings(df)
     df = add_rolling_form(df)
     df = add_rest_days(df)
-    if is_played:
-        df = add_target(df)
     return df
 
-
+# Main execution
 if __name__ == "__main__":
     played = pd.read_csv(PROCESSED_WITH_TRANSFER_PATH)
     unplayed = pd.read_csv(FIXTURES_WITH_TRANSFER_PATH)
+
+    played = filter_valid_seasons(played)
+    unplayed = filter_valid_seasons(unplayed)
 
     played['_source'] = 'played'
     unplayed['_source'] = 'unplayed'
@@ -137,7 +153,7 @@ if __name__ == "__main__":
     print(f"Building features for {len(played)} played matches...")
     combined = pd.concat([played, unplayed], ignore_index=True)
     combined['date'] = pd.to_datetime(combined['date'])
-    combined = build_features(combined, is_played=False)
+    combined = build_features(combined)
 
     played_final = combined[combined['_source'] == 'played'].drop(columns=['_source']).copy()
     played_final = add_target(played_final)
@@ -153,3 +169,4 @@ if __name__ == "__main__":
     print(f"-> Saved to-predict data: {TO_PREDICT_DATA_PATH} ({len(unplayed_final)} rows)")
     print(f"\nColumns: {played_final.columns.tolist()}")
     print(f"\nResult distribution:\n{played_final['result'].value_counts(normalize=True)}")
+    print(f"\nRemaining NaN check:\n{played_final.isna().sum()[played_final.isna().sum() > 0]}")

@@ -7,9 +7,10 @@ SEASONS = ['2122', '2223', '2324', '2425', '2526', '2627']
 
 # Scrape & Process Domestic Data
 print("Scraping Domestic Leagues from FBref...")
-fbref = sd.FBref(leagues='Big 5 European Leagues Combined', seasons=SEASONS, headless=True)
+fbref = sd.FBref(leagues='Big 5 European Leagues Combined', seasons=SEASONS, headless=False)
 fbref.rate_limit = 12
 schedule_domestic = fbref.read_schedule().reset_index()  
+schedule_domestic = schedule_domestic[schedule_domestic['season'].isin(SEASONS)]
 
 # split "score" ("2–1", en dash) into home_score / away_score
 if 'score' in schedule_domestic.columns:
@@ -32,7 +33,7 @@ played_domestic.to_csv(RAW_DOMESTIC_PATH, index=False)
 
 # Scrape & Process UCL Data
 print("Scraping Champions League from FBref...")
-fbref_ucl = sd.FBref(leagues=['INT-Champions League'], seasons=SEASONS, headless=True)
+fbref_ucl = sd.FBref(leagues=['INT-Champions League'], seasons=SEASONS, headless=False)
 fbref_ucl.rate_limit = 12
 schedule_ucl = fbref_ucl.read_schedule().reset_index()
 
