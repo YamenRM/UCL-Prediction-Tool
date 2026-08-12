@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 import soccerdata as sd
 from Configuration import (
@@ -11,24 +12,29 @@ from Configuration import (
 def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
     # Pull full Elo rating history for each team from clubelo.com.
     elo_reader = sd.ClubElo()
+    elo_reader.rate_limit = 3   
+    elo_reader.max_delay = 2    
+
     histories = []
     failed = []
 
     for i, team in enumerate(teams, 1):
         try:
             hist = elo_reader.read_team_history(team).reset_index()
-            hist['team'] = team 
+            hist['team'] = team
             histories.append(hist)
         except Exception:
             failed.append(team)
+
         if i % 20 == 0:
             print(f"  [{i}/{len(teams)}] fetched")
+            if histories:  # checkpoint so a crash later doesn't lose everything
+                pd.concat(histories, ignore_index=True).to_csv(RAW_ELO_PATH + ".partial", index=False)
 
     if failed:
         print(f"⚠️ Could not fetch Elo history for {len(failed)} teams:")
         print(failed)
 
-    # Concatenate all histories into a single DataFrame
     elo_long = pd.concat(histories, ignore_index=True)
     elo_long['from'] = pd.to_datetime(elo_long['from'])
     elo_long = elo_long[['team', 'from', 'elo']].sort_values(['team', 'from'])
@@ -36,12 +42,11 @@ def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
 
 
 def add_elo_features(matches: pd.DataFrame, elo_long: pd.DataFrame) -> pd.DataFrame:
-    # Add Elo features to the matches DataFrame by merging with the Elo history.
     matches = matches.copy()
     matches['date'] = pd.to_datetime(matches['date'])
     matches = matches.sort_values('date')
-
-    elo_long = elo_long.sort_values('from') # sort elo_long by 'from' to ensure correct merging
+    
+    elo_long = elo_long.sort_values('from')
 
     home_elo = pd.merge_asof(
         matches,
@@ -65,8 +70,25 @@ if __name__ == "__main__":
         set(played['home_team']) | set(played['away_team'])
         | set(unplayed['home_team']) | set(unplayed['away_team'])
     )
-    print(f"Fetching Elo history for {len(all_teams)} teams...")
-    elo_long = fetch_elo_history(all_teams)
+
+    try:
+        existing = pd.read_csv(RAW_ELO_PATH)
+        already_have = set(existing['team'].unique())
+    except FileNotFoundError:
+        existing = pd.DataFrame(columns=['team', 'from', 'elo'])  
+        already_have = set()
+
+    teams_to_fetch = [t for t in all_teams if t not in already_have]
+    print(f"{len(already_have)} teams already cached, fetching {len(teams_to_fetch)} new/missing teams...")
+
+    if teams_to_fetch:
+        new_elo = fetch_elo_history(teams_to_fetch)
+    else:
+        new_elo = pd.DataFrame(columns=['team', 'from', 'elo'])
+        print("Nothing new to fetch.")
+
+    elo_long = pd.concat([existing, new_elo], ignore_index=True)
+    elo_long = elo_long.drop_duplicates(subset=['team', 'from'])
     elo_long.to_csv(RAW_ELO_PATH, index=False)
 
     played_elo = add_elo_features(played, elo_long)
@@ -75,7 +97,6 @@ if __name__ == "__main__":
     played_elo.to_csv(PROCESSED_WITH_ELO_PATH, index=False)
     unplayed_elo.to_csv(FIXTURES_WITH_ELO_PATH, index=False)
 
-    # Report missing Elo values
     missing_home = played_elo['home_elo'].isna().sum()
     missing_away = played_elo['away_elo'].isna().sum()
     print(f"\nMissing home_elo: {missing_home} / {len(played_elo)}")
