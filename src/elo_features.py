@@ -10,10 +10,9 @@ from Configuration import (
 )
 
 def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
-    # Pull full Elo rating history for each team from clubelo.com.
     elo_reader = sd.ClubElo()
-    elo_reader.rate_limit = 3   
-    elo_reader.max_delay = 2    
+    elo_reader.rate_limit = 3
+    elo_reader.max_delay = 2
 
     histories = []
     failed = []
@@ -28,12 +27,15 @@ def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
 
         if i % 20 == 0:
             print(f"  [{i}/{len(teams)}] fetched")
-            if histories:  # checkpoint so a crash later doesn't lose everything
+            if histories:
                 pd.concat(histories, ignore_index=True).to_csv(RAW_ELO_PATH + ".partial", index=False)
 
     if failed:
         print(f"⚠️ Could not fetch Elo history for {len(failed)} teams:")
         print(failed)
+
+    if not histories:  # <-- guard
+        return pd.DataFrame(columns=['team', 'from', 'elo'])
 
     elo_long = pd.concat(histories, ignore_index=True)
     elo_long['from'] = pd.to_datetime(elo_long['from'])
@@ -44,8 +46,12 @@ def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
 def add_elo_features(matches: pd.DataFrame, elo_long: pd.DataFrame) -> pd.DataFrame:
     matches = matches.copy()
     matches['date'] = pd.to_datetime(matches['date'])
+    matches['home_team'] = matches['home_team'].astype(str)
+    matches['away_team'] = matches['away_team'].astype(str)
     matches = matches.sort_values('date')
-    
+
+    elo_long = elo_long.copy()
+    elo_long['team'] = elo_long['team'].astype(str)
     elo_long = elo_long.sort_values('from')
 
     home_elo = pd.merge_asof(
@@ -72,22 +78,19 @@ if __name__ == "__main__":
     )
 
     try:
-        existing = pd.read_csv(RAW_ELO_PATH)
+        existing = pd.read_csv(RAW_ELO_PATH, parse_dates=['from'])   
         already_have = set(existing['team'].unique())
     except FileNotFoundError:
-        existing = pd.DataFrame(columns=['team', 'from', 'elo'])  
+        existing = pd.DataFrame(columns=['team', 'from', 'elo'])
         already_have = set()
 
     teams_to_fetch = [t for t in all_teams if t not in already_have]
     print(f"{len(already_have)} teams already cached, fetching {len(teams_to_fetch)} new/missing teams...")
 
-    if teams_to_fetch:
-        new_elo = fetch_elo_history(teams_to_fetch)
-    else:
-        new_elo = pd.DataFrame(columns=['team', 'from', 'elo'])
-        print("Nothing new to fetch.")
+    new_elo = fetch_elo_history(teams_to_fetch) if teams_to_fetch else pd.DataFrame(columns=['team', 'from', 'elo'])
 
     elo_long = pd.concat([existing, new_elo], ignore_index=True)
+    elo_long['from'] = pd.to_datetime(elo_long['from'], format='mixed')  
     elo_long = elo_long.drop_duplicates(subset=['team', 'from'])
     elo_long.to_csv(RAW_ELO_PATH, index=False)
 
