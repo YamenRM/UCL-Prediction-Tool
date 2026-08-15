@@ -25,3 +25,6 @@ TO_PREDICT_DATA_PATH = f"{PROJECT_PATH}/data/final/to_predict_data.csv"
 RF_TUNING_RESULTS_PATH = f"{PROJECT_PATH}/data/models/rf_tuning_results.csv"
 RF_MODEL_PATH = f"{PROJECT_PATH}/models/rf_tuned.pkl"
 MODELS_DIR = f"{PROJECT_PATH}/models"
+
+PRODUCTION_MODEL_PATH = f"{MODELS_DIR}/rf_final.pkl"
+PREDICTIONS_OUTPUT_PATH = f"{MODELS_DIR}/predictions_2627.csv"
