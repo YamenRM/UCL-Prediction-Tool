@@ -51,7 +51,9 @@ if __name__ == "__main__":
     predicted_label = predict_with_draw_margin(probs, classes)
     predicted_label_argmax = model.predict(X) 
 
-    output = fixtures[['date', 'league', 'season', 'home_team', 'away_team']].copy()
+    output = fixtures[['date', 'league', 'season', 'home_team', 'away_team',
+                    'home_elo_missing', 'away_elo_missing',
+                    'home_squad_rating_missing', 'away_squad_rating_missing']].copy()
     for i, cls in enumerate(classes):
         output[f'prob_{cls}'] = probs[:, i].round(4)
 

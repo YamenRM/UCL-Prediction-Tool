@@ -1,5 +1,9 @@
 .venv
-data
 downloaded_files
 test.ipynb
-models
+data
+models/*.pkl
+models/*.csv
+
+!models/rf_final.pkl
+!models/predictions_2627.csv
