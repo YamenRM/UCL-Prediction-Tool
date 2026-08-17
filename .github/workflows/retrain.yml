@@ -1,0 +1,65 @@
+name: Weekly retrain and predict
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}  
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90  
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set up Chrome (required by SoFIFA's Selenium-based scraper)
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Install soccerdata config files
+        run: |
+          mkdir -p ~/soccerdata/config
+          cp important/league_dict.json ~/soccerdata/config/league_dict.json
+          cp important/teamname_replacements.json ~/soccerdata/config/teamname_replacements.json
+
+      - name: Run data scraping
+        run: python src/data_scraping.py
+
+      - name: Run Elo features
+        run: python src/elo_features.py
+
+      - name: Run transfer features
+        run: python src/transfer_features.py
+
+      - name: Run feature engineering
+        run: python src/feature_engineering.py
+
+      - name: Train production model
+        run: python src/train.py
+
+      - name: Generate predictions
+        run: python src/predict.py
+
+      - name: Commit and push updated predictions and model
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add models/predictions_2627.csv models/rf_final.pkl
+          if git diff --cached --quiet; then
+            echo "No changes to commit — predictions are already up to date."
+          else
+            git commit -m "Weekly retrain: update predictions and model ($(date -u +%Y-%m-%d))"
+            git push
+          fi
