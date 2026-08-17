@@ -99,16 +99,7 @@ pip install -r requirements.txt
 
 **Location**: `~/soccerdata/config/` (Windows: `%USERPROFILE%\soccerdata\config\`). This folder is created automatically the first time you `import soccerdata`, but the two files inside it are not — you add them yourself.
 
-**1. `league_dict.json`** — registers UEFA Champions League as a custom FBref competition (not included by default):
-```json
-{
-  "INT-Champions League": {
-    "FBref": "UEFA Champions League",
-    "season_start": "Sep",
-    "season_end": "May"
-  }
-}
-```
+**1. `league_dict.json`** — registers UEFA Champions League as a custom FBref competition (not included by default) `See Importnant/league_dict.json`
 
 **2. `teamname_replacements.json`** — reconciles club naming differences across FBref, ClubElo, and SoFIFA (e.g. `"Bayern Munich"` → `"Bayern"` on ClubElo, `"FC Bayern München"` on SoFIFA). The full mapping (150+ clubs) is maintained separately — see `Important/teamname_replacements.json`.
 
