@@ -28,11 +28,10 @@ jobs:
       - name: Set up Chrome (required by SoFIFA's Selenium-based scraper)
         uses: browser-actions/setup-chrome@v1
 
-      - name: Install soccerdata config files
+      - name: Set up soccerdata directory
         run: |
           mkdir -p ~/soccerdata/config
-          cp important/league_dict.json ~/soccerdata/config/league_dict.json
-          cp important/teamname_replacements.json ~/soccerdata/config/teamname_replacements.json
+          cp important/*.json ~/soccerdata/config/
 
       - name: Run data scraping
         run: python src/data_scraping.py
