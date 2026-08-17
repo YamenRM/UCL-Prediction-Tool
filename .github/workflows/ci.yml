@@ -36,4 +36,4 @@ jobs:
         run: pytest tests/ -v
 
       - name: Check app.py imports cleanly
-        run: python -c "import ast; ast.parse(open('app.py').read())"
+        run: python -c "import ast; ast.parse(open('src/app.py').read())"
