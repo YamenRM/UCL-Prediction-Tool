@@ -8,7 +8,7 @@ the pipeline (scheduled weekly via GitHub Actions) and this app just
 presents them.
 
 Run locally by:
-    streamlit run src/app.py
+    streamlit run src/App.py
 """
 
 import pickle
