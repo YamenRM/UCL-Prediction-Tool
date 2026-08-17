@@ -31,7 +31,7 @@ jobs:
       - name: Set up soccerdata directory
         run: |
           mkdir -p ~/soccerdata/config
-          cp important/*.json ~/soccerdata/config/
+          cp Important/*.json ~/soccerdata/config/
 
       - name: Run data scraping
         run: python src/data_scraping.py
