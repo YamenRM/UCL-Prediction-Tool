@@ -33,8 +33,13 @@ jobs:
           mkdir -p ~/soccerdata/config
           cp Important/*.json ~/soccerdata/config/
 
-      - name: Run data scraping
-        run: python src/data_scraping.py
+      # NOTE: data_scraping.py (FBref) deliberately does NOT run here.
+      # FBref's bot-detection reliably CAPTCHA-blocks GitHub-hosted runner
+      # IPs (datacenter ranges), even on the very first request. Scraping
+      # FBref happens locally instead — run data_scraping.py on your own
+      # machine periodically and push the refreshed data/raw/*.csv files.
+      # This job picks up whatever is currently committed and runs
+      # everything downstream of that (Elo, SoFIFA, features, training, prediction).
 
       - name: Run Elo features
         run: python src/elo_features.py

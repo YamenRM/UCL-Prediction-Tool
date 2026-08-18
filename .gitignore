@@ -1,9 +1,16 @@
 .venv
 downloaded_files
 test.ipynb
-data
+data/external/
+data/processed/
+data/models/
+data/final/
+data/model_comparison.csv
+data/model_comparison.png
 models/*.pkl
 models/*.csv
 
+!data/raw/matches_domestic.csv
+!data/raw/matches_ucl.csv
 !models/rf_final.pkl
 !models/predictions_2627.csv
