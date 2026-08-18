@@ -2,15 +2,17 @@
 downloaded_files
 test.ipynb
 data/external/
-data/processed/
+data/processed/*.csv
 data/models/
 data/final/
 data/model_comparison.csv
 data/model_comparison.png
 models/*.pkl
 models/*.csv
+data/raw/
 
-!data/raw/matches_domestic.csv
-!data/raw/matches_ucl.csv
+
+!data/processed/matches_combined.csv
+!data/processed/fixtures_to_predict.csv
 !models/rf_final.pkl
 !models/predictions_2627.csv
