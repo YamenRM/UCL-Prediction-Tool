@@ -17,6 +17,8 @@ def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
     histories = []
     failed = []
 
+    CIRCUIT_BREAKER_SAMPLE = 5 
+
     for i, team in enumerate(teams, 1):
         try:
             hist = elo_reader.read_team_history(team).reset_index()
@@ -24,6 +26,12 @@ def fetch_elo_history(teams: list[str]) -> pd.DataFrame:
             histories.append(hist)
         except Exception:
             failed.append(team)
+
+        if i == CIRCUIT_BREAKER_SAMPLE and len(failed) == CIRCUIT_BREAKER_SAMPLE:
+            print(f"⚠️ All first {CIRCUIT_BREAKER_SAMPLE} Elo fetches failed — "
+                  f"ClubElo API appears to be down. Aborting remaining {len(teams) - i} "
+                  f"fetches and falling back to existing cache.")
+            return pd.DataFrame(columns=['team', 'from', 'elo'])
 
         if i % 20 == 0:
             print(f"  [{i}/{len(teams)}] fetched")

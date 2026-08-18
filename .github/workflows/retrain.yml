@@ -39,7 +39,7 @@ jobs:
       # FBref happens locally instead — run data_scraping.py on your own
       # machine periodically and push the refreshed data/raw/*.csv files.
       # This job picks up whatever is currently committed and runs
-      # everything downstream of that (Elo, SoFIFA, features, training, prediction).
+      # everything downstream of that (Elo, SoFIFA, features, training, prediction)
 
       - name: Run Elo features
         run: python src/elo_features.py
