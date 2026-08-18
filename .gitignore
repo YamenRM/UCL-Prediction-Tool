@@ -1,7 +1,8 @@
 .venv
 downloaded_files
 test.ipynb
-data/external/
+data/external/*.csv
+data/external/*.json
 data/processed/*.csv
 data/models/
 data/final/
@@ -11,7 +12,8 @@ models/*.pkl
 models/*.csv
 data/raw/
 
-
+!data/external/team_elo_history.csv
+!data/external/sofifa_team_ratings.csv
 !data/processed/matches_combined.csv
 !data/processed/fixtures_to_predict.csv
 !models/rf_final.pkl
