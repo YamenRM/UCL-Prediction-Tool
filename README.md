@@ -6,8 +6,8 @@ A machine learning pipeline that predicts UEFA Champions League and Big-5 domest
 
 - ✅ **Data Phase** — Complete
 - ✅ **Model Phase** — Complete
-- ⬜ **Deploy Phase** — Up next
-- ⬜ **DevOps Phase**
+- ✅ **Deploy Phase** — Complete
+- ⬜ **DevOps Phase** — Up next
 - ⬜ **After Development Phase**
 
 ---
