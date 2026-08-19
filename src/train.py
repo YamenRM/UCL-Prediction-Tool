@@ -1,4 +1,3 @@
-# src/train.py
 """
 Training two Random Forest models:
 
@@ -69,6 +68,10 @@ def train_and_save(df: pd.DataFrame, save_path: str, label: str) -> RandomForest
 
 
 if __name__ == "__main__":
+
+    os.makedirs(os.path.dirname(EVAL_MODEL_PATH), exist_ok=True)
+    os.makedirs(os.path.dirname(PRODUCTION_MODEL_PATH), exist_ok=True)
+
     eval_df = load_seasons(EVAL_SEASONS)
     train_and_save(eval_df, EVAL_MODEL_PATH, "Evaluation model (holds out 2526)")
 

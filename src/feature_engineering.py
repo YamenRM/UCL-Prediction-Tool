@@ -1,4 +1,4 @@
-# src/feature_engineering.py
+import os
 import numpy as np
 import pandas as pd
 from Configuration import (
@@ -161,6 +161,9 @@ if __name__ == "__main__":
 
     assert len(played_final) == len(played), f"Row count mismatch: {len(played_final)} vs {len(played)}"
     assert len(unplayed_final) == len(unplayed), f"Row count mismatch: {len(unplayed_final)} vs {len(unplayed)}"
+
+    os.makedirs(os.path.dirname(TRAINING_DATA_PATH), exist_ok=True)
+    os.makedirs(os.path.dirname(TO_PREDICT_DATA_PATH), exist_ok=True)
 
     played_final.to_csv(TRAINING_DATA_PATH, index=False)
     unplayed_final.to_csv(TO_PREDICT_DATA_PATH, index=False)

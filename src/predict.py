@@ -1,6 +1,7 @@
 import pickle
 import numpy as np
 import pandas as pd
+import os
 
 from Configuration import TO_PREDICT_DATA_PATH, PRODUCTION_MODEL_PATH, PREDICTIONS_OUTPUT_PATH
 
@@ -34,6 +35,8 @@ def predict_with_draw_margin(probs: np.ndarray, classes: np.ndarray, margin: flo
 
 
 if __name__ == "__main__":
+    os.makedirs(os.path.dirname(PREDICTIONS_OUTPUT_PATH), exist_ok=True)
+
     model, feature_cols = load_model(PRODUCTION_MODEL_PATH)
     print(f"Loaded production model ({len(feature_cols)} features)")
 
