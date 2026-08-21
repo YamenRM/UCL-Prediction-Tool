@@ -76,16 +76,31 @@ All five models landed within ~0.4% log loss of each other — with strong hand-
 
 ---
 
-## 🗺️ Roadmap
+## 🚀 Deploy Phase — Summary
 
-- **Deploy Phase**: serve predictions via a Streamlit app; surface probability breakdowns and data-quality flags (imputed vs. real Elo/rating data) per fixture
-- **DevOps Phase**: orchestrate the six-stage pipeline into a single runnable command; scheduled retraining as the 2026/27 season progresses
-- **After Development Phase**: walk-forward backtesting to validate the weekly retrain-and-predict strategy against real historical deployment conditions; potential Transfermarkt-based transfer feature as an upgrade over the SoFIFA proxy
+- Live app: [MY Streamlit app](https://ucl-prediction-tool.streamlit.app/) (app.py) reads directly from the committed models/predictions_2627.csv and models/rf_final.pkl — no live inference at request time. Shows Home/Draw/Away probabilities per fixture, with a data-quality badge on predictions that rely on imputed Elo/squad-rating data, plus a filter to hide them.
+
+- CI: GitHub Actions runs on every push/PR — unit tests (leakage checks on rolling features, season/date consistency, sample-weight correctness) against small synthetic data, and a syntax check on app.py.
+
+- Automated weekly retrain: a scheduled GitHub Actions workflow (Mondays, 06:00 UTC) re-runs the pipeline downstream of scraping — Elo join, SoFIFA join, feature engineering, training, prediction — and commits the refreshed predictions_2627.csv / rf_final.pkl back to the repo, which Streamlit Cloud auto-redeploys on.
+
+- Key engineering decision — scraping stays local, not cloud: FBref's bot-detection reliably CAPTCHA-blocks requests from GitHub-hosted runner IPs (datacenter ranges), even on the very first request of a run — this isn't a rate-limiting issue, it's IP-reputation-based blocking that no amount of backoff fixes. data_scraping.py therefore runs locally (where it's proven reliable throughout this project) and its output (data/processed/matches_combined.csv, fixtures_to_predict.csv) is committed to the repo; the cloud workflow picks up from there. Everything downstream of scraping (Elo, SoFIFA, feature engineering, training) runs cleanly in CI.
+
+- Resilience — external dependencies aren't always up: api.clubelo.com (a small, single-maintainer service) went fully unresponsive mid-project, independent of cloud vs. local. Added a circuit breaker to elo_features.py — if the first handful of fetch attempts all fail, the run aborts early and falls back to the committed cache instead of burning through hours of guaranteed retries across 200+ teams. Elo/SoFIFA rating caches are committed to the repo for the same reason: the cloud job should only ever need to fetch a handful of newly-promoted/qualified teams incrementally, never the full team universe from scratch.
+
+- CI/CD config note: soccerdata's custom league_dict.json and teamname_replacements.json are committed under config/ and copied into place at the start of the retrain workflow — a fresh GitHub-hosted runner has no local soccerdata cache to read them from otherwise.
+
+---
+
+## 🗺️ Roadmap
+DevOps Phase: orchestrate the local scraping → commit → cloud pipeline into a single script rather than manual steps; monitoring/alerting if the weekly retrain workflow fails silently (e.g. a Slack/email ping); dependency version pinning audit across requirements.txt to keep training and serving environments in sync
+
+After Development Phase: walk-forward backtesting to validate the weekly retrain-and-predict strategy against real historical deployment conditions; potential Transfermarkt-based transfer feature as an upgrade over the SoFIFA proxy; broaden SoFIFA/Elo coverage beyond Big-5 for UCL qualifying-round clubs currently relying on imputed data
 
 ---
 
 ## Tech Stack
-`Python` · `pandas` · `scikit-learn` · `soccerdata` · `RapidFuzz` · `XGBoost` / `LightGBM` (comparison) · `Streamlit` (planned)
+`Python` · `pandas` · `scikit-learn` · `soccerdata` · `RapidFuzz` · `XGBoost` / `LightGBM` (comparison) · `Streamlit` · `GitHub Actions` (CI + scheduled retrain) · `pytest`
 
 ---
 
@@ -95,20 +110,33 @@ All five models landed within ~0.4% log loss of each other — with strong hand-
 pip install -r requirements.txt
 ```
 
-`soccerdata` reads two config files from its local data directory — **not committed to this repo**, since they live outside the project folder and are environment-specific. You need to create both before running the scraper, or `INT-Champions League` and several club lookups (ClubElo/SoFIFA) will fail.
+soccerdata reads two config files from its local data directory. These are committed to this repo under Important/, since the scheduled GitHub Actions retrain workflow needs them on a fresh runner with no local soccerdata cache. For local development, copy them into place manually (the workflow does this automatically in CI):
 
-**Location**: `~/soccerdata/config/` (Windows: `%USERPROFILE%\soccerdata\config\`). This folder is created automatically the first time you `import soccerdata`, but the two files inside it are not — you add them yourself.
-
+Location: ~/soccerdata/config/ (Windows: %USERPROFILE%\soccerdata\config\). This folder is created automatically the first time you import soccerdata, but the files inside it aren't — copy them from this repo:
+```
+mkdir -p ~/soccerdata/config
+cp config/league_dict.json ~/soccerdata/config/league_dict.json
+cp config/teamname_replacements.json ~/soccerdata/config/teamname_replacements.json
+```
 **1. `league_dict.json`** — registers UEFA Champions League as a custom FBref competition (not included by default) `See Importnant/league_dict.json`
 
 **2. `teamname_replacements.json`** — reconciles club naming differences across FBref, ClubElo, and SoFIFA (e.g. `"Bayern Munich"` → `"Bayern"` on ClubElo, `"FC Bayern München"` on SoFIFA). The full mapping (150+ clubs) is maintained separately — see `Important/teamname_replacements.json`.
 
-Once both files are in place, run the pipeline in order:
-```bash
+### Running the pipeline
+
+Locally (required for the FBref scraping step — see Deploy Phase for why):
+```
 python src/data_scraping.py
-python src/elo_features.py
-python src/transfer_features.py
-python src/feature_engineering.py
-python src/train.py
-python src/predict.py
+python src/elo_features.py       # commit data/external/team_elo_history.csv after this
+python src/transfer_features.py  # commit data/external/sofifa_team_ratings.csv after this
+git add data/processed/matches_combined.csv data/processed/fixtures_to_predict.csv \
+        data/external/team_elo_history.csv data/external/sofifa_team_ratings.csv
+git commit -m "Refresh scraped data and rating caches"
+git push
+```
+In the cloud (automatic): pushing to main triggers CI (ci.yml); every Saturday 06:00 UTC (or manually via the Actions tab), `retrain.yml` runs `elo_features.py` → `transfer_features.py` → `feature_engineering.py` → `train.py` → `predict.py` against whatever's currently committed, and pushes the refreshed predictions — which Streamlit Cloud auto-redeploys.
+
+Tests
+```
+pytest tests/ -v
 ```
