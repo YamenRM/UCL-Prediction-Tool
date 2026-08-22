@@ -1899,6 +1899,7 @@ ENG-Premier League,2526,7517b26a,2026-05-24,Nottingham,Bournemouth,1.0,1.0
 ENG-Premier League,2526,384f3785,2026-05-24,Sunderland,Chelsea,2.0,1.0
 ENG-Premier League,2526,2dfc43ad,2026-05-24,Tottenham,Everton,1.0,0.0
 ENG-Premier League,2526,df8c12d9,2026-05-24,West Ham,Leeds United,3.0,0.0
+ENG-Premier League,2627,3085a362,2026-08-21,Arsenal,Coventry City,3.0,0.0
 ESP-La Liga,2122,e69c743a,2021-08-13,Valencia,Getafe,1.0,0.0
 ESP-La Liga,2122,9613fb68,2021-08-14,Alavés,Real Madrid,1.0,4.0
 ESP-La Liga,2122,bc5ea8ef,2021-08-14,Cádiz,Levante,1.0,1.0
@@ -3804,6 +3805,9 @@ ESP-La Liga,2627,912b06e9,2026-08-15,Sevilla,Rayo Vallecano,2.0,1.0
 ESP-La Liga,2627,3225dfa1,2026-08-16,Espanyol,Levante,3.0,0.0
 ESP-La Liga,2627,2ee849a2,2026-08-16,Racing Sant,Villarreal,2.0,2.0
 ESP-La Liga,2627,8981ae47,2026-08-17,Dep. A Coruña,Elche,1.0,1.0
+ESP-La Liga,2627,fb9d2365,2026-08-19,Atlético Madrid,Málaga,2.0,0.0
+ESP-La Liga,2627,fd3bb9b5,2026-08-20,Rayo Vallecano,Alavés,1.0,1.0
+ESP-La Liga,2627,3ca27700,2026-08-21,Real Betis,Real Sociedad,1.0,0.0
 FRA-Ligue 1,2122,5a71bd1f,2021-08-06,Monaco,Nantes,1.0,1.0
 FRA-Ligue 1,2122,22f9fbae,2021-08-07,Lyon,Brest,1.0,1.0
 FRA-Ligue 1,2122,081fcc93,2021-08-07,Troyes,PSG,1.0,2.0
@@ -5489,6 +5493,7 @@ FRA-Ligue 1,2526,3f1c643d,2026-05-17,Paris FC,PSG,2.0,1.0
 FRA-Ligue 1,2526,99581dc1,2026-05-17,Strasbourg,Monaco,5.0,4.0
 FRA-Ligue 1,2526,62512744,2026-05-26,Saint-Étienne,Nice,0.0,0.0
 FRA-Ligue 1,2526,9a6b9f16,2026-05-29,Nice,Saint-Étienne,4.0,1.0
+FRA-Ligue 1,2627,ecd1ebc5,2026-08-21,Marseille,Strasbourg,4.0,0.0
 GER-Bundesliga,2122,82c5d82c,2021-08-13,Gladbach,Bayern Munich,1.0,1.0
 GER-Bundesliga,2122,e4331e7c,2021-08-14,Arminia,Freiburg,0.0,0.0
 GER-Bundesliga,2122,eee6b64c,2021-08-14,Augsburg,Hoffenheim,0.0,4.0
@@ -9749,3 +9754,10 @@ INT-Champions League,2627,72bc8921,2026-08-11,Red Star,H. Be'er Sheva,0.0,2.0
 INT-Champions League,2627,7ac4e27b,2026-08-11,Sabah FK,AGF,4.0,0.0
 INT-Champions League,2627,63e4f2c7,2026-08-11,Slovan Bratislava,Mjällby,2.0,0.0
 INT-Champions League,2627,10d56789,2026-08-11,Sturm Graz,Fenerbahçe,0.0,1.0
+INT-Champions League,2627,4df15692,2026-08-18,Dinamo Zagreb,Viking,2.0,2.0
+INT-Champions League,2627,81d74923,2026-08-18,Fenerbahçe,Lyon,1.0,1.0
+INT-Champions League,2627,084e9779,2026-08-18,Levski Sofia,AEK Athens,0.0,0.0
+INT-Champions League,2627,70d81465,2026-08-19,Celtic,LASK,3.0,0.0
+INT-Champions League,2627,bff8faab,2026-08-19,H. Be'er Sheva,Sabah FK,2.0,1.0
+INT-Champions League,2627,ac8de373,2026-08-19,NEC Nijmegen,Bodø/Glimt,1.0,3.0
+INT-Champions League,2627,acf2296b,2026-08-19,Slovan Bratislava,NK Celje,1.0,1.0

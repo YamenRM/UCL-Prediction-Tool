@@ -1,6 +1,7 @@
 .venv
 downloaded_files
 test.ipynb
+log.txt
 data/external/*.csv
 data/external/*.json
 data/processed/*.csv

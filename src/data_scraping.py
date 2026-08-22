@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import soccerdata as sd
 from Configuration import RAW_DOMESTIC_PATH, RAW_UCL_PATH, PROCESSED_COMBINED_PATH, FIXTURES_TO_PREDICT_PATH
@@ -29,6 +31,7 @@ unplayed_domestic = schedule_domestic[
     schedule_domestic['home_score'].isna() & (schedule_domestic['season'] == '2627')
 ].copy()
 
+os.makedirs(os.path.dirname(RAW_DOMESTIC_PATH), exist_ok=True)
 played_domestic.to_csv(RAW_DOMESTIC_PATH, index=False)
 
 # Scrape & Process UCL Data
@@ -46,6 +49,7 @@ schedule_ucl = schedule_ucl[[c for c in cols_domestic if c in schedule_ucl.colum
 
 played_ucl = schedule_ucl.dropna(subset=['home_score', 'away_score']).copy()
 unplayed_ucl = schedule_ucl[schedule_ucl['home_score'].isna() & (schedule_ucl['season'] == '2627')].copy()
+os.makedirs(os.path.dirname(RAW_UCL_PATH), exist_ok=True)
 played_ucl.to_csv(RAW_UCL_PATH, index=False)
 
 # Merge Domestic and UCL Data 
